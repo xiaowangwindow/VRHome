@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta name="renderer" content="webkit" />
+<title>Oculus Rift cv1 配置了两款游戏EVE: Valkyrie+Lucky's Tale - VR开发技术论坛 - VR论坛互动社区 - VR之家论坛</title>
+<meta name="keywords" content="oculus,rift,cv1,配置,两款,游戏,eve,valkyrie+lucky,tale" />
+<meta name="description" content="Oculus Rift cv1 配置了两款游戏EVE: Valkyrie+Lucky's Tale -  
+Oculus Rift cv1 配置了两款游戏EVE: Valkyrie+Lucky's Tale
+尚不知以何种方式配送。光盘？内置？
+
+酷炫视频：
+ 
+ 
+
+"  />
+<base href="" /><!--[if IE]></base><![endif]-->
+<link href="../static/css/default/img/favicon.ico?v=20151125" rel="shortcut icon" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/icon.css" />
+
+<link href="../static/css/default/common.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="../static/css/default/link.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="../static/js/plug_module/style.css?v=20151125" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+	var _52E01ADF269581CCA8B520D2C34ACBD2="";
+	var G_POST_HASH=_52E01ADF269581CCA8B520D2C34ACBD2;
+	var G_INDEX_SCRIPT = "";
+	var G_SITE_NAME = "VR开发技术论坛 - VR论坛互动社区 - VR之家论坛";
+	var G_BASE_URL = "http://www.vrzhijia.com/bbs";
+	var G_STATIC_URL = "http://www.vrzhijia.com/bbs/static";
+	var G_UPLOAD_URL = "http://www.vrzhijia.com/bbs/uploads";
+	var G_USER_ID = "";
+	var G_USER_NAME = "";
+	var G_UPLOAD_ENABLE = "N";
+	var G_UNREAD_NOTIFICATION = 0;
+	var G_NOTIFICATION_INTERVAL = 100000;
+	var G_CAN_CREATE_TOPIC = "";
+	var G_ADVANCED_EDITOR_ENABLE = "Y";
+
+	</script>
+<script src="../static/js/jquery.2.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/jquery.form.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/plug_module/plug-in_module.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/aws.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/aw_template.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/app.js?v=20151125" type="text/javascript"></script>
+<script type="text/javascript" src="../static/js/compatibility.js"></script>
+<!--[if lte IE 8]>
+	<script type="text/javascript" src="http://www.vrzhijia.com/bbs/static/js/respond.js"></script>
+<![endif]-->
+</head>
+<noscript unselectable="on" id="noscript">
+    <div class="aw-404 aw-404-wrap container">
+        <img src="../static/common/no-js.jpg">
+        <p>你的浏览器禁用了JavaScript, 请开启后刷新浏览器获得更好的体验!</p>
+    </div>
+</noscript>
+<body>
+	<div class="aw-top-menu-wrap">
+		<div class="container">
+			<!-- logo -->
+			<div class="aw-logo hidden-xs">
+				<a href="../../index.html" title="VR之家"></a>
+			</div>
+			<!-- end logo -->
+			<!-- 搜索框 -->
+			<div class="aw-search-box  hidden-xs hidden-sm">
+				<form class="navbar-search" action="http://www.vrzhijia.com/bbs/search/" id="global_search_form" method="post">
+					<input class="form-control search-query" type="text" placeholder="搜索问题、话题或人" autocomplete="off" name="q" id="aw-search-query" />
+					<span title="搜索" id="global_search_btns" onClick="$('#global_search_form').submit();"><i class="icon icon-search"></i></span>
+					<div class="aw-dropdown">
+						<div class="mod-body">
+							<p class="title">输入关键字进行搜索</p>
+							<ul class="aw-dropdown-list hide"></ul>
+							<p class="search"><span>搜索:</span><a onClick="$('#global_search_form').submit();"></a></p>
+						</div>
+						<div class="mod-footer">
+							<a href="../publish" onClick="$('#header_publish').click();" class="pull-right btn btn-mini btn-success publish">发起问题</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!-- end 搜索框 -->
+			<!-- 导航 -->
+			<div class="aw-top-nav navbar">
+				<div class="navbar-header">
+				  <button  class="navbar-toggle pull-left">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+				<nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">
+				  <ul class="nav navbar-nav">
+<li><a href="../../bbs.1" class="active" title="vr社区首页"><i class="icon icon-list"></i>社    区首页</a></li>
+
+										<!--<li><a href="http://www.vrzhijia.com/bbs" class=""><i class="icon icon-list"></i> 发现</a></li>-->
+
+					
+					<!-- <li><a href="http://www.vrzhijia.com/bbs/question/" class="">问题</a></li>
+
+					<li><a href="http://www.vrzhijia.com/bbs/article/" class="active">文章</a></li> -->
+
+					<li><a href="../topic/index.html" ><i class="icon icon-topic"></i> 话题</a></li>
+															<li>
+						<a style="font-weight:bold;">· · ·</a>
+						<div class="dropdown-list pull-right">
+							<ul id="extensions-nav-list">
+																							</ul>
+						</div>
+					</li>
+				  </ul>
+				</nav>
+			</div>
+			<!-- end 导航 -->
+			<!-- 用户栏 -->
+			<div class="aw-user-nav">
+				<!-- 登陆&注册栏 -->
+									<a class="login btn btn-normal btn-primary" href="../account/login/index.html">登录</a>
+					<a class="register btn btn-normal btn-success" href="../account/register/index.html">注册</a>								<!-- end 登陆&注册栏 -->
+			</div>
+			<!-- end 用户栏 -->
+			<!-- 发起 -->
+						<!-- end 发起 -->
+		</div>
+	</div>
+	
+
+<div class="aw-container-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="aw-content-wrap clearfix">
+                <div class="col-sm-12 col-md-9 aw-main-content aw-article-content">
+                    <div class="aw-mod aw-topic-bar" id="question_topic_editor" data-type="article" data-id="15">
+                        <div class="tag-bar clearfix">
+                                                                                    <span class="topic-tag" data-id="18">
+                                <a class="text" href="../topic/Lucky's+Tale">Lucky's Tale</a>
+                            </span>
+                                                        <span class="topic-tag" data-id="19">
+                                <a class="text" href="../topic/EVE:+Valkyrie">EVE: Valkyrie</a>
+                            </span>
+                                                        <span class="topic-tag" data-id="20">
+                                <a class="text" href="../topic/Oculus+Rift+cv1">Oculus Rift cv1</a>
+                            </span>
+                                                        
+                                                    </div>
+                    </div>
+                    <div class="aw-mod aw-question-detail">
+                        <div class="mod-head">
+                            <h1>
+                                Oculus Rift cv1 配置了两款游戏EVE: Valkyrie+Lucky's Tale                            </h1>
+
+                                                    </div>
+                        <div class="mod-body">
+                            <div class="content markitup-box">
+                                 <br />
+Oculus Rift cv1 配置了两款游戏EVE: Valkyrie+Lucky's Tale<br />
+尚不知以何种方式配送。光盘？内置？<br />
+<br />
+酷炫视频：<br />
+ <br />
+ <br />
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="640" height="400"><param name="movie" value="http://player.youku.com/player.php/sid/XMTI2MDY0MjczMg==/v.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="allowFullScreen" value="true" /><embed src="http://player.youku.com/player.php/sid/XMTI2MDY0MjczMg==/v.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="640" height="400" wmode="transparent" allowfullscreen="true"></embed></object></p><br />
+
+                                
+                                                            </div>
+                            <div class="meta clearfix">
+                                <div class="aw-article-vote pull-left disabled">
+                                    <a href="javascript:;" class="agree" onclick="AWS.User.article_vote($(this), 15, 1);"><i class="icon icon-agree"></i> <b>0</b></a>
+                                                                    </div>
+
+                                <span class="pull-right  more-operate">
+                                    
+                                    
+                                    <a class="text-color-999 dropdown-toggle" data-toggle="dropdown">
+                                        <i class="icon icon-share"></i> 分享                                    </a>
+                                    <div aria-labelledby="dropdownMenu" role="menu" class="aw-dropdown shareout pull-right">
+                                        <ul class="aw-dropdown-list">
+                                            <li><a onclick="AWS.User.share_out({webid: 'tsina', content: $(this).parents('.aw-question-detail').find('.markitup-box')});"><i class="icon icon-weibo"></i> 微博</a></li>
+											<li><a onclick="AWS.User.share_out({webid: 'qzone', content: $(this).parents('.aw-question-detail')});"><i class="icon icon-qzone"></i> QZONE</a></li>
+											<li><a onclick="AWS.User.share_out({webid: 'weixin', content: $(this).parents('.aw-question-detail')});"><i class="icon icon-wechat"></i> 微信</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <em class="text-color-999">2 天前</em>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mod-footer">
+                                                    </div>
+                    </div>
+
+                    <!-- 文章评论 -->
+                    <div class="aw-mod">
+                        <div class="mod-head common-head">
+                            <h2>0 个评论</h2>
+                        </div>
+
+                        <div class="mod-body aw-feed-list">
+                                                    </div>
+
+                        
+                                            </div>
+                    <!-- end 文章评论 -->
+
+                    <!-- 回复编辑器 -->
+                    <div class="aw-mod aw-article-replay-box">
+                        <a name="answer_form"></a>
+                                                <p align="center">要回复文章请先<a href="../account/login/index.html">登录</a>或<a href="../account/register/index.html">注册</a></p>
+                                            </div>
+                    <!-- end 回复编辑器 -->
+                </div>
+                <!-- 侧边栏 -->
+                <div class="col-sm-12 col-md-3 aw-side-bar hidden-sm hidden-xs">
+                    <!-- 发起人 -->
+                                        <div class="aw-mod user-detail">
+                        <div class="mod-head">
+                            <h3>发起人</h3>
+                        </div>
+                        <div class="mod-body">
+                            <dl>
+                                <dt class="pull-left aw-border-radius-5">
+                                    <a href="../people/2"><img alt="哆啦A梦" src="../uploads/avatar/000/00/00/02_avatar_mid.jpg" /></a>
+                                </dt>
+                                <dd class="pull-left">
+                                    <a class="aw-user-name" href="../people/2" data-id="2">哆啦A梦</a>
+                                                                            <i class="icon-v i-ve" title="企业认证"></i>
+                                    
+                                                                        <p></p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="mod-footer clearfix">
+                                                        <div class="aw-topic-bar">
+                                <div class="topic-bar clearfix">
+                                    <span class="pull-left text-color-999">
+                                        擅长话题 : &nbsp;
+                                    </span>
+                                                                        <span class="topic-tag">
+                                        <a href="../topic/Unity3d" class="text" data-id="10">Unity3d</a>
+                                    </span>
+                                                                        <span class="topic-tag">
+                                        <a href="../topic/Maya" class="text" data-id="9">Maya</a>
+                                    </span>
+                                                                    </div>
+                            </div>
+                                                    </div>
+                    </div>
+                                        <!-- end 发起人 -->
+
+                    
+                                        <!-- 相关问题 -->
+                    <div class="aw-mod aw-text-align-justify question-related-list">
+                        <div class="mod-head">
+                            <h3>相关问题</h3>
+                        </div>
+                        <div class="mod-body font-size-12">
+                            <ul>
+                                                                <li><a href="../question/7">Oculus Rift CV1 消费版本什么时候上市呢</a></li>
+                                                                <li><a href="../question/3">VR游戏是什么意思？</a></li>
+                                                                <li><a href="../question/8">Oculus 官网是多少？</a></li>
+                                                            </ul>
+                        </div>
+                    </div>
+                    <!-- end 相关问题 -->
+                                    </div>
+                <!-- end 侧边栏 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var ANSWER_EDIT_TIME = 30;
+
+    $(document).ready(function () {
+        if ($('.aw-article-vote.disabled').length)
+        {
+            $('.aw-article-vote.disabled a').attr('onclick', '');
+        }
+
+        AWS.at_user_lists('#wmd-input');
+
+        AWS.Init.init_article_comment_box($('.aw-article-comment'));
+    });
+</script>
+
+<div class="aw-footer-wrap">
+	<div class="aw-footer">
+		Copyright © <a href="../../index.html" target="_blank">VR之家</a> <a href="../../bbs.1">VR之家开发技术社区</a> 2016<span class="hidden-xs"> - 粤ICP备14057610号-1, All Rights Reserved <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ff04f7071632918a7161d92ab6834b81";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+ <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252994616'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1252994616%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span>
+
+
+			</div>
+</div>
+
+<a class="aw-back-top hidden-xs" href="javascript:;" onclick="$.scrollTo(1, 600, {queue:true});"><i class="icon icon-up"></i></a>
+
+
+<!-- DO NOT REMOVE -->
+<div id="aw-ajax-box" class="aw-ajax-box"></div>
+
+<div style="display:none;" id="__crond">
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#__crond').html(unescape('%3Cimg%20src%3D%22' + G_BASE_URL + '/crond/run/1452331748%22%20width%3D%221%22%20height%3D%221%22%20/%3E'));
+		});
+	</script>
+</div>
+
+<!-- Escape time: 0.090213060379028 --><!-- / DO NOT REMOVE -->
+
+</body>
+</html>

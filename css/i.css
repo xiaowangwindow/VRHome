@@ -1,0 +1,86 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0px; padding: 0px; }
+body, button, input, select, textarea { font: 12px/1.5 tahoma,Arial,"宋体","微软雅黑"; }
+ul, ol { list-style: none outside none; }
+fieldset, img { border: 0px none; vertical-align: top; }
+button, input, select, textarea { font-size: 100%; }
+button { cursor: pointer; }
+form { display: inline; }
+input, textarea { outline: medium none; }
+i { font-style: normal; }
+u, i, s, em { text-decoration: none; font-weight: normal; font-style: normal; }
+html { background: none repeat scroll 0% 0% rgb(246, 245, 250); }
+.clearfix { padding: 8px 0 0 0; }
+.clearfix:after, .row:after { content: " "; display: block; height: 0px; clear: both; }
+.imp { color: rgb(82, 185, 251); }
+.c666 { color: rgb(102, 102, 102); }
+.ext { color: rgb(153, 153, 153); }
+.blue { color: rgb(0, 99, 168); }
+.white { color: rgb(255, 255, 255); }
+.fst { font-family: "宋体"; }
+.red { color: rgb(255, 51, 0);  border: 1px solid #e4e4e4;}
+a { text-decoration: none; color: rgb(51, 51, 51); outline: 0px none; }
+a:hover { text-decoration: underline; color: rgb(82, 185, 251); }
+.h4 { font-size: 14px; }
+.fl { float: left; }
+.fr { float: right; }
+.row { width: 960px; margin: 0px auto; }
+.mt8 { margin-top: 8px; }
+.margin8 { margin:8px; }
+.pr5 { padding-right: 5px; }
+.lay-160 { width: 160px; }
+.lay-790 { width: 790px; }
+.top-bar, .main-nav, .menu li, .sub-menu, .main-mark, .sub-mark, .tab-style-3, .soft-share .soft-share-bar, .deta-top-box .deta-hot, .deta-top-box .deta-new, .btn-more-cmt .btn { background-image: url('../img/repeat.png'); background-repeat: repeat-x; }
+.menu li i, .left-cat .ico, .idx-focus .xtaber-tabs .current i, .tab-style-1 .current i, .soft-list .ico, .soft-top-list .num,.list-rec-title, .pic-item i, .deta-top-box .top-hd i, .soft-top-list .ico-down, .soft-top-list .ico-up, .cmt-list .cmt-reply i, .top-search-list .i3, .top-search-list .i5 .ico, .top-search-list .mix-pic i, .top-mark .ico-add, .top-bar .ico-msg, .key-form .ico, .autocomplete-container .isnew-1 { background-image: url('../img/icon.png'); background-repeat: no-repeat; }
+.star-range { height: 20px; width: 50px; display: block; overflow: hidden; text-align: center;  }
+.container { background: url('../img/top_bg.png') no-repeat scroll center 0px transparent; }
+.top-bar { height: 26px; }
+.top-bar .welcome { float: left; height: 26px; line-height: 26px; color: rgb(102, 102, 102); }
+.top-bar .ico-msg { width: 20px; height: 20px; background-position: -280px -40px; float: left; margin-top: 3px; }
+.user-tools { float: right; line-height: 26px; }
+.user-tools a { float: left; }
+.user-tools s { margin: 0px 8px; color: rgb(153, 153, 153); float: left; line-height: 26px; }
+.header { height: 89px; width: 960px; margin: 0px auto; }
+.header .logo { margin-top: 19px; width: 152px; height: 54px; background: url('../img/logo.png') no-repeat scroll 0% 0% transparent; }
+.header .logo a { display: block; height: 54px; text-indent: -999em; }
+.search-form { padding: 25px 0px 0px 45px; float: left; width: 435px; }
+.key-form { height: 32px; border-radius: 3px; position: relative; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 2px solid rgb(36, 185, 253); padding: 0px; }
+.key-form .key { float: left; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 0px none; padding: 6px 0px 6px 6px; height: 20px; line-height: 20px; width: 324px; color: rgb(51, 51, 51); }
+.key-form .hot-btn { width: 20px; height: 20px; background-position: -260px -60px; position: absolute; left: 330px; top: 8px; cursor: pointer; }
+.key-form .hot-num { width: 17px; height: 15px; overflow: hidden; background-position: -280px -60px; position: absolute; left: 1px; top: -15px; text-align: center; line-height: 15px; color: rgb(255, 255, 255); display: none; }
+.key-form .btn { color: rgb(255, 255, 255); font-size: 14px; width: 80px; float: right; height: 32px; text-align: center; border: 0px none; background: none repeat scroll 0% 0% rgb(36, 185, 253); }
+.top-test { width: 250px; float: right; margin-top: 10px; }
+.footer { background: none repeat scroll 0% 0% rgb(122, 125, 128); padding: 35px 0px; text-align: center; color: rgb(255, 255, 255); line-height: 24px; margin-top: 10px; }
+.footer a, .footer a:visited { color: rgb(255, 255, 255); }
+.footer s { color: rgb(172, 172, 172); margin: 0px 3px; }
+.main-nav { width: 960px; margin: 0px auto; background-position: 0px -465px; background-color: rgb(82, 185, 251); height: 40px; }
+.menu { float: left; }
+.menu li { float: left; height: 40px; line-height: 40px; background-position: right -151px; background-repeat: no-repeat; padding: 0px 20px 0px 18px; margin-right: -2px; }
+.menu .current { background: none repeat scroll 0% 0% rgb(2, 127, 184); }
+.menu .current { background-position: 0px -505px; background-repeat: repeat-x; }
+.menu li a { color: rgb(255, 255, 255); font-family: "Microsoft YaHei","微软雅黑","宋体"; font-size: 16px; text-shadow: 1px 1px 1px rgb(11, 129, 215); }
+.menu li a:hover { color: rgb(255, 255, 255); }
+.menu li i { width: 20px; height: 20px; float: left; margin: 9px 10px 0px 0px; }
+.menu .ico-pc { background-position: 0px 0px; }
+.menu .ico-and { background-position: -20px 0px; }
+.menu .ico-ip { background-position: -40px 0px; }
+.nav-ext { float: right; padding: 9px 10px 0px 0px; overflow: hidden;}
+.nav-ext a { background-repeat: no-repeat; background-position: 0px -107px; display: inline-block; height: 22px; line-height: 22px; padding-left: 10px; color: rgb(255, 255, 255); }
+.nav-ext a:hover { color: rgb(255, 255, 255); }
+.par-row { background: url('../img/link_icon.png') no-repeat scroll 10px 43px rgb(240, 242, 243); padding: 13px 0px; }
+.par-row .til { font-size: 14px; font-weight: bold; width: 80px; float: left; padding: 5px 0px 0px 10px; }
+.par-list { float: left; width: 865px; }
+.par-list li { float: left; width: 11%; height: 30px; line-height: 30px; }
+/***额外**/
+.dev_h1 { text-align: center; padding: 12px 0;}
+.soft-list li { float: left; width: 106px; overflow: hidden; height: 110px;  }
+.soft-list .pic { display: block; width: 75px; height: 75px; margin: 0px auto; position: relative; text-align: center; }
+.soft-list .pic img { width: 75px; height: 75px; }
+.soft-list .name { display: block; text-align: center; height: 22px; line-height: 22px; overflow: hidden; margin-top: 4px; }
+.soft-list .btn-soft-dl { margin: 0px auto; }
+.soft-list .ico { width: 14px; height: 14px; position: absolute; right: 0px; bottom: 0px; display: none; }
+.soft-list .ico-selected { background-position: -3px -22px; }
+.soft-list .btn-soft-dl { display: none; }
+
+.menu li i, .left-cat .ico, .idx-focus .xtaber-tabs .current i, .tab-style-1 .current i, .soft-list .ico, .soft-top-list .num, .list-rec-title, .pic-item i, .deta-top-box .top-hd i, .soft-top-list .ico-down, .soft-top-list .ico-up, .cmt-list .cmt-reply i, .top-search-list .i3, .top-search-list .i5 .ico, .top-search-list .mix-pic i, .top-mark .ico-add, .top-bar .ico-msg, .key-form .ico, .autocomplete-container .isnew-1 { background-image: url('../img/icon_001.png'); background-repeat: no-repeat; }
+/*.star-range { height: 8px; width: 50px; display: block; overflow: hidden; background-position: 0px -48px; }*/
+/*.star-range .in { float: left; height: 8px; overflow: hidden; background-position: 0px -40px; }*/

@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta name="renderer" content="webkit" />
+<title>VR开发技术论坛 - VR论坛互动社区 - VR之家论坛</title>
+<meta name="keywords" content="VR论坛,VR开发,VR社区,VR技术,VR之家" />
+<meta name="description" content="VR之家社区,专注行业,开发与技术分享,为VR爱好者提供交流学习平台,VR开发者的乐园。VR之家-国内首家专业VR游戏软件下载网站"  />
+<base href="" /><!--[if IE]></base><![endif]-->
+<link href="static/css/default/img/favicon.ico?v=20151125" rel="shortcut icon" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="static/css/icon.css" />
+
+<link href="static/css/default/common.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="static/css/default/link.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="static/js/plug_module/style.css?v=20151125" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+	var _92C36FD6BA8E3C059AB6BCA5E69B332C="";
+	var G_POST_HASH=_92C36FD6BA8E3C059AB6BCA5E69B332C;
+	var G_INDEX_SCRIPT = "";
+	var G_SITE_NAME = "VR开发技术论坛 - VR论坛互动社区 - VR之家论坛";
+	var G_BASE_URL = "http://www.vrzhijia.com/bbs";
+	var G_STATIC_URL = "http://www.vrzhijia.com/bbs/static";
+	var G_UPLOAD_URL = "http://www.vrzhijia.com/bbs/uploads";
+	var G_USER_ID = "";
+	var G_USER_NAME = "";
+	var G_UPLOAD_ENABLE = "N";
+	var G_UNREAD_NOTIFICATION = 0;
+	var G_NOTIFICATION_INTERVAL = 100000;
+	var G_CAN_CREATE_TOPIC = "";
+	var G_ADVANCED_EDITOR_ENABLE = "Y";
+
+	</script>
+<script src="static/js/jquery.2.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/jquery.form.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/plug_module/plug-in_module.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/aws.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/aw_template.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/app.js?v=20151125" type="text/javascript"></script>
+<script type="text/javascript" src="static/js/compatibility.js"></script>
+<!--[if lte IE 8]>
+	<script type="text/javascript" src="http://www.vrzhijia.com/bbs/static/js/respond.js"></script>
+<![endif]-->
+</head>
+<noscript unselectable="on" id="noscript">
+    <div class="aw-404 aw-404-wrap container">
+        <img src="static/common/no-js.jpg">
+        <p>你的浏览器禁用了JavaScript, 请开启后刷新浏览器获得更好的体验!</p>
+    </div>
+</noscript>
+<body>
+	<div class="aw-top-menu-wrap">
+		<div class="container">
+			<!-- logo -->
+			<div class="aw-logo hidden-xs">
+				<a href="../index.html" title="VR之家"></a>
+			</div>
+			<!-- end logo -->
+			<!-- 搜索框 -->
+			<div class="aw-search-box  hidden-xs hidden-sm">
+				<form class="navbar-search" action="http://www.vrzhijia.com/bbs/search/" id="global_search_form" method="post">
+					<input class="form-control search-query" type="text" placeholder="搜索问题、话题或人" autocomplete="off" name="q" id="aw-search-query" />
+					<span title="搜索" id="global_search_btns" onClick="$('#global_search_form').submit();"><i class="icon icon-search"></i></span>
+					<div class="aw-dropdown">
+						<div class="mod-body">
+							<p class="title">输入关键字进行搜索</p>
+							<ul class="aw-dropdown-list hide"></ul>
+							<p class="search"><span>搜索:</span><a onClick="$('#global_search_form').submit();"></a></p>
+						</div>
+						<div class="mod-footer">
+							<a href="publish" onClick="$('#header_publish').click();" class="pull-right btn btn-mini btn-success publish">发起问题</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!-- end 搜索框 -->
+			<!-- 导航 -->
+			<div class="aw-top-nav navbar">
+				<div class="navbar-header">
+				  <button  class="navbar-toggle pull-left">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+				<nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">
+				  <ul class="nav navbar-nav">
+<li><a href="../bbs.1" class="active" title="vr社区首页"><i class="icon icon-list"></i>社    区首页</a></li>
+
+										<!--<li><a href="http://www.vrzhijia.com/bbs" class="active"><i class="icon icon-list"></i> 发现</a></li>-->
+
+					
+					<!-- <li><a href="http://www.vrzhijia.com/bbs/question/" class="">问题</a></li>
+
+					<li><a href="http://www.vrzhijia.com/bbs/article/" class="">文章</a></li> -->
+
+					<li><a href="topic/index.html" ><i class="icon icon-topic"></i> 话题</a></li>
+															<li>
+						<a style="font-weight:bold;">· · ·</a>
+						<div class="dropdown-list pull-right">
+							<ul id="extensions-nav-list">
+																							</ul>
+						</div>
+					</li>
+				  </ul>
+				</nav>
+			</div>
+			<!-- end 导航 -->
+			<!-- 用户栏 -->
+			<div class="aw-user-nav">
+				<!-- 登陆&注册栏 -->
+									<a class="login btn btn-normal btn-primary" href="account/login/index.html">登录</a>
+					<a class="register btn btn-normal btn-success" href="account/register/index.html">注册</a>								<!-- end 登陆&注册栏 -->
+			</div>
+			<!-- end 用户栏 -->
+			<!-- 发起 -->
+						<!-- end 发起 -->
+		</div>
+	</div>
+	
+
+<div class="aw-container-wrap">
+	<div class="container category">	<div class="row">	<div class="col-sm-12">			<ul class="list">			<li class="active"><a href="explore/index.html">全部</a></li>												<li>				<a href="explore/category-7">VR开发</a>							</li>												<li>				<a href="explore/category-1">VR动态</a>							</li>												<li>				<a href="explore/category-2">技术</a>							</li>												<li>				<a href="explore/category-4">设备</a>							</li>												<li>				<a href="explore/category-8">VR电影</a>							</li>												<li>				<a href="explore/category-3">DIY</a>							</li>												<li>				<a href="explore/category-5">常见问题</a>							</li>												<li>				<a href="explore/category-6">新手入门</a>							</li>																				</ul>		</div></div></div>
+	<div class="container">
+		<div class="row">
+			<div class="aw-content-wrap clearfix">
+				<div class="col-sm-12 col-md-9 aw-main-content">
+					<!-- 新消息通知 -->
+					<div class="aw-mod aw-notification-box hide" id="index_notification">
+						<div class="mod-head common-head">
+							<h2>
+								<span class="pull-right"><a href="account/setting/privacy/index.html#notifications" class="text-color-999"><i class="icon icon-setting"></i> 通知设置</a></span>
+								<i class="icon icon-bell"></i>新通知<em class="badge badge-important" name="notification_unread_num"></em>
+							</h2>
+						</div>
+						<div class="mod-body">
+							<ul id="notification_list"></ul>
+						</div>
+						<div class="mod-footer clearfix">
+							<a href="javascript:;" onclick="AWS.Message.read_notification(false, 0, false);" class="pull-left btn btn-mini btn-gray">我知道了</a>
+							<a href="notifications/index.html" class="pull-right btn btn-mini btn-success">查看所有</a>
+						</div>
+					</div>
+					<!-- end 新消息通知 -->
+					<!-- tab切换 -->
+					<ul class="nav nav-tabs aw-nav-tabs active hidden-xs">
+						<li><a href="sort_type-unresponsive">等待回复</a></li>
+						<li class="active"><a href="sort_type-hot__day-7" id="sort_control_hot">热门</a></li>
+						<li><a href="is_recommend-1">推荐</a></li>
+						<li><a href="../bbs.1">最新</a></li>
+
+						<h2 class="hidden-xs"><i class="icon icon-list"></i> 发现</h2>
+					</ul>
+					<!-- end tab切换 -->
+
+										<!-- 自定义tab切换 -->
+					<div class="aw-tabs">
+						<ul>
+							<li class="active"><a href="sort_type-hot____day-30" day="30">30天</a></li>
+						  	<li><a href="sort_type-hot____day-7" day="7">7天</a></li>
+						  	<li><a href="sort_type-hot____day-1" day="1">当天</a></li>
+						</ul>
+					</div>
+					<!-- end 自定义tab切换 -->
+					
+					<div class="aw-mod aw-explore-list">
+						<div class="mod-body">
+							<div class="aw-common-list">
+								<div class="aw-item " data-topic-id="">
+	<a class="aw-user-name hidden-xs" data-id="11" href="people/红�%259D%258F" rel="nofollow"><img src="uploads/avatar/000/00/00/11_avatar_max.jpg" alt="" /></a>	<div class="aw-question-content">
+		<h4>
+						<a href="question/15">虚拟现实行业有哪些软件？</a>
+					</h4>
+				<div class="pull-right hidden-xs contribute">
+			<span class="pull-right text-color-999">贡献</span>
+		    		    <a class="aw-user-name" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_mid.jpg" alt="" /></a>
+		    		</div>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-5">常见问题</a>
+				• 									<a href="people/2" class="aw-user-name" data-id="2">哆啦A梦</a>				<span class="text-color-999">回复了问题 • 2 人关注 • 1 个回复 • 23 次浏览 • 3 天前				</span>
+									<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+			</div>
+</div>
+<div class="aw-item " data-topic-id="10,9,">
+	<a class="aw-user-name hidden-xs" data-id="11" href="people/红�%259D%258F" rel="nofollow"><img src="uploads/avatar/000/00/00/11_avatar_max.jpg" alt="" /></a>	<div class="aw-question-content">
+		<h4>
+						<a href="question/16">虚拟现实软件开发流程有哪些？</a>
+					</h4>
+				<div class="pull-right hidden-xs contribute">
+			<span class="pull-right text-color-999">贡献</span>
+		    		    <a class="aw-user-name" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_mid.jpg" alt="" /></a>
+		    		</div>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-5">常见问题</a>
+				• 									<a href="people/2" class="aw-user-name" data-id="2">哆啦A梦</a>				<span class="text-color-999">回复了问题 • 2 人关注 • 1 个回复 • 24 次浏览 • 3 天前				</span>
+									<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+			</div>
+</div>
+<div class="aw-item " data-topic-id="">
+	<a class="aw-user-name hidden-xs" data-id="11" href="people/红�%259D%258F" rel="nofollow"><img src="uploads/avatar/000/00/00/11_avatar_max.jpg" alt="" /></a>	<div class="aw-question-content">
+		<h4>
+						<a href="question/17">虚拟现实VR概念股有哪些,特别是龙头股</a>
+					</h4>
+				<div class="pull-right hidden-xs contribute">
+			<span class="pull-right text-color-999">贡献</span>
+		    		    <a class="aw-user-name" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_mid.jpg" alt="" /></a>
+		    		</div>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-5">常见问题</a>
+				• 									<a href="people/2" class="aw-user-name" data-id="2">哆啦A梦</a>				<span class="text-color-999">回复了问题 • 2 人关注 • 1 个回复 • 21 次浏览 • 4 天前				</span>
+									<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+			</div>
+</div>
+<div class="aw-item active" data-topic-id="1,">
+	<a class="aw-user-name hidden-xs" data-id="11" href="people/红�%259D%258F" rel="nofollow"><img src="uploads/avatar/000/00/00/11_avatar_max.jpg" alt="" /></a>	<div class="aw-question-content">
+		<h4>
+						<a href="question/1">VR技术是什么？</a>
+					</h4>
+				<a href="question/1#!answer_form" class="pull-right text-color-999">回复</a>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-5">常见问题</a>
+				• 													<a href="people/红�%259D%258F" class="aw-user-name">红杏</a>				<span class="text-color-999">发起了问题 • 1 人关注 • 0 个回复 • 15 次浏览 • 2016-01-02 05:48				</span>
+									<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+			</div>
+</div>
+<div class="aw-item " data-topic-id="">
+	<a class="aw-user-name hidden-xs" data-id="11" href="people/红�%259D%258F" rel="nofollow"><img src="uploads/avatar/000/00/00/11_avatar_max.jpg" alt="" /></a>	<div class="aw-question-content">
+		<h4>
+						<a href="question/18">虚拟现实系统有哪些特征？</a>
+					</h4>
+				<div class="pull-right hidden-xs contribute">
+			<span class="pull-right text-color-999">贡献</span>
+		    		    <a class="aw-user-name" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_mid.jpg" alt="" /></a>
+		    		</div>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-5">常见问题</a>
+				• 									<a href="people/2" class="aw-user-name" data-id="2">哆啦A梦</a>				<span class="text-color-999">回复了问题 • 2 人关注 • 1 个回复 • 17 次浏览 • 2016-01-02 08:13				</span>
+									<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+			</div>
+</div>
+<div class="aw-item " data-topic-id="">
+	<a class="aw-user-name hidden-xs" data-id="11" href="people/红�%259D%258F" rel="nofollow"><img src="uploads/avatar/000/00/00/11_avatar_max.jpg" alt="" /></a>	<div class="aw-question-content">
+		<h4>
+						<a href="question/7">Oculus Rift CV1 消费版本什么时候上市呢</a>
+					</h4>
+				<div class="pull-right hidden-xs contribute">
+			<span class="pull-right text-color-999">贡献</span>
+		    		    <a class="aw-user-name" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_mid.jpg" alt="" /></a>
+		    		</div>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 									<a href="people/2" class="aw-user-name" data-id="2">哆啦A梦</a>				<span class="text-color-999">回复了问题 • 2 人关注 • 1 个回复 • 26 次浏览 • 4 天前				</span>
+									<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="8,11,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/5">虚拟现实现在这么火，VR游戏什么时候爆发？</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-5">常见问题</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 53 次浏览 • 2016-01-02 08:11</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			从硬件、到软件、从国外，再到国内。<br />
+<br />
+VR行业现在越来越火，至于什么时候爆发，这就要看软硬件配合的程度，什么时候出现一款惊艳并体验极佳的游戏。那么就离爆不远了。你可以说这是3年，5年，或者10年。<br />
+<br />
+国外有oculus rift<br />
+<br />
+国内有蚁视，暴风，大朋，等等。<br />
+<br />
+但是软件方面还未跟上。<br />
+<br />
+可是，科技行业，向来发展速度都是很快的。谁都说不准什么时候。<br />
+<br />
+只能从现有的硬件，软件的条件下去作合理的判断。<br />
+<br />
+oculus rift cv1 很快就要上市了，这是一款面向普通消费者的产品。体验上肯定要比DK2好上很多。<br />
+<br />
+本人体验过DK2，离好玩，爽的体验还是差点火候。<br />
+<br />
+但是cv1提升了很多，我想，等oculus rift cv2 cv3 的时候，应该就差不多了。还需要点时间、耐心。<br />
+<br />
+不过，vr不只是在游戏行业火，未来更多行业都会盛行VR设备，敬请期待。 			<a class="more" href="article/5">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			从硬件、到软件、从国外，再到国内。<br />
+<br />
+VR行业现在越来越火，至于什么时候爆发，这就要看软硬件配合的程度，什么时候出现一款惊艳并体验极佳的游戏。那么就离爆不远了。你可以说这是3年，5年，或者10年。<br />
+<br />
+国外有oculus rift<br />
+<br />
+国内有蚁视，暴风，大朋，等等。<br />
+<br />
+但是软件方面还未跟上。<br />
+<br />
+可是，科技行业，向来发展速度都是很快的。谁都说不准什么时候。<br />
+<br />
+只能从现有的硬件，软件的条件下去作合理的判断。<br />
+<br />
+oculus rift cv1 很快就要上市了，这是一款面向普通消费者的产品。体验上肯定要比DK2好上很多。<br />
+<br />
+本人体验过DK2，离好玩，爽的体验还是差点火候。<br />
+<br />
+但是cv1提升了很多，我想，等oculus rift cv2 cv3 的时候，应该就差不多了。还需要点时间、耐心。<br />
+<br />
+不过，vr不只是在游戏行业火，未来更多行业都会盛行VR设备，敬请期待。		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="12,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/6">Oculus 官方公布第一季度上市 Rift CV1 </a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 27 次浏览 • 4 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			有传言称，本次CES2016将公布包括Oculus Rift售价，上市日期，以及首发区域等关键信息，但是否如此还有待检验。<br />
+<br />
+更多消息，请继续关注本社区 		</div>
+		
+		<div class="hide all-content">
+			有传言称，本次CES2016将公布包括Oculus Rift售价，上市日期，以及首发区域等关键信息，但是否如此还有待检验。<br />
+<br />
+更多消息，请继续关注本社区		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="13,7,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/7">Oculus rift cv1 价格大概400+美元</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-4">VR设备</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 48 次浏览 • 4 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			媒体预测最少也得400美元，<br />
+<br />
+记得DK2发售的时候，价格也差不多，有可能会上浮.<br />
+<br />
+本人预估：cv1 3000人民币能搞定。<br />
+<br />
+  		</div>
+		
+		<div class="hide all-content">
+			媒体预测最少也得400美元，<br />
+<br />
+记得DK2发售的时候，价格也差不多，有可能会上浮.<br />
+<br />
+本人预估：cv1 3000人民币能搞定。<br />
+<br />
+ 		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="7,11,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/8">Oculus Rift已经开始倒计时发售CV1 </a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 36 次浏览 • 3 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			​离可下单还有28个小时。<br />
+<br />
+大概时间是在2016年1月7号凌晨。不过大家放心，如果第一批库存发完，还会继续加货，就是等待一些时间。<br />
+<br />
+目前还不清楚地区是否可选中国，不过既然是消费者版，应该可以购买。预估价格在3000左右(个人猜想)。拭目以待吧。 		</div>
+		
+		<div class="hide all-content">
+			​离可下单还有28个小时。<br />
+<br />
+大概时间是在2016年1月7号凌晨。不过大家放心，如果第一批库存发完，还会继续加货，就是等待一些时间。<br />
+<br />
+目前还不清楚地区是否可选中国，不过既然是消费者版，应该可以购买。预估价格在3000左右(个人猜想)。拭目以待吧。		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="7,14,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/9">Oculus Rift DK2 2014年开箱记录</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-4">VR设备</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 66 次浏览 • 3 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			惊喜！惊喜！Nice 提前收到Oculus Rfit DK2 。期待已久的产品终于到手，虽说只是开发版本，但对于我来说，足以。<br />
+<br />
+有很多想法，与Demo需要实践一番。穿戴时代已经来临，希望能开发，或者辅助开发出一款真正的次时代作品。<br />
+<br />
+在此之前，先给不知所云的朋友们普及一下。<br />
+<br />
+      “Oculus Rift 是一款为电子游戏设计的头戴式显示器。这是一款虚拟现实设备。这款设备很可能改变未来人们游戏的方式。<br />
+<br />
+此前，DK1因为分辨率太低，普遍遭到大家的吐槽，DK2在分辨率做了提升，使用屏幕是三星 Note3 的Oled屏幕。分辨率达到1920*1080。<br />
+<br />
+但是，该分辨率在虚拟现实(VR)领域，仍然达不到真实体验的效果，还有一定距离。(爱好者们普遍认为4K屏幕才能有最好体验效果，那么，我们离4K还有多久呢？)。<br />
+<br />
+     同时，今年Facebook出资20亿美元收购Oculus，并且Ceo Mark Elliot Zuckerberg 已经表态助力Oculus发展虚拟现实社区<br />
+<br />
+     该设备在 E3 2013 中揽获多项媒体大奖，且在 E3 官方奖项 Game Critics Awards 中，击败新发布的 Xbox One、PS4，获得最佳硬件奖。而这项奖项历来几乎被索尼、微软、任天堂新发布的掌机、主机设备所包揽。Oculus公司已在开发者中建立起良好声誉，截至2014年3月，Oculus Rift的开发工具已收到超过7.5万份订单”<br />
+<br />
+怎么样？ 是不是有点意思了呢？ <br />
+<br />
+     回到主题。今年4月份本人在oculus官网订购了DK2。等待了4个多月，今天终于收到了。<br />
+<br />
+下面，将给大家做个简单的评测展示。<br />
+<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+1.Oculus rift开箱<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+2.Oculus rift主体佩戴面，试着佩戴了一下，如果前面有强光的话，会有一点点漏光，晚上戴，或者在房间里就会好很多。<br />
+   不过，拿其他东西把网眼封一下就好了，不是什么大问题。<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+3.Oculus rift主体佩戴面<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+4.Oculus rift配件 第二套透镜，适合不同人？应该是近视人用？<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+5.Oculus rift 各种插头配件<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+6.Oculus rift头部追踪摄像头，可以定位现实中头部的运动轨迹，反馈到游戏当中。<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+7.说明书<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+8.Oculus rift全部<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+10.Oculus rift 主体<br />
+<br />
+产品做的不错，很精致，虽然也是中国代工，但还是甩国产山寨货几十条街的节奏。<br />
+<br />
+最后，给大家送上几个视频，我要去做体验、开发了！~~<br />
+<br />
+<br />
+  			<a class="more" href="article/9">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			惊喜！惊喜！Nice 提前收到<a href="../index.html" rel="nofollow" target="_blank">Oculus Rfit</a> DK2 。期待已久的产品终于到手，虽说只是开发版本，但对于我来说，足以。<br />
+<br />
+有很多想法，与Demo需要实践一番。穿戴时代已经来临，希望能开发，或者辅助开发出一款真正的次时代作品。<br />
+<br />
+在此之前，先给不知所云的朋友们普及一下。<br />
+<br />
+      “Oculus Rift 是一款为电子游戏设计的头戴式显示器。这是一款虚拟现实设备。这款设备很可能改变未来人们游戏的方式。<br />
+<br />
+此前，DK1因为分辨率太低，普遍遭到大家的吐槽，DK2在分辨率做了提升，使用屏幕是三星 Note3 的Oled屏幕。分辨率达到1920*1080。<br />
+<br />
+但是，该分辨率在虚拟现实(VR)领域，仍然达不到真实体验的效果，还有一定距离。(爱好者们普遍认为4K屏幕才能有最好体验效果，那么，我们离4K还有多久呢？)。<br />
+<br />
+     同时，今年Facebook出资20亿美元收购Oculus，并且Ceo Mark Elliot Zuckerberg 已经表态助力Oculus发展虚拟现实社区<br />
+<br />
+     该设备在 E3 2013 中揽获多项媒体大奖，且在 E3 官方奖项 Game Critics Awards 中，击败新发布的 Xbox One、PS4，获得最佳硬件奖。而这项奖项历来几乎被索尼、微软、任天堂新发布的掌机、主机设备所包揽。Oculus公司已在开发者中建立起良好声誉，截至2014年3月，Oculus Rift的开发工具已收到超过7.5万份订单”<br />
+<br />
+怎么样？ 是不是有点意思了呢？ <br />
+<br />
+     回到主题。今年4月份本人在oculus官网订购了DK2。等待了4个多月，今天终于收到了。<br />
+<br />
+下面，将给大家做个简单的评测展示。<br />
+<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/1bcd6fe92546c942fd5a7fa0933133a3.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/1bcd6fe92546c942fd5a7fa0933133a3.jpeg" class="img-polaroid" title="1.jpeg" alt="1.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+1.Oculus rift开箱<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/ad75bf6ffa01181614ba4f9841d7ce22.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/ad75bf6ffa01181614ba4f9841d7ce22.jpeg" class="img-polaroid" title="2.jpeg" alt="2.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+2.Oculus rift主体佩戴面，试着佩戴了一下，如果前面有强光的话，会有一点点漏光，晚上戴，或者在房间里就会好很多。<br />
+   不过，拿其他东西把网眼封一下就好了，不是什么大问题。<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/dbbd880527ea0571e8aeec951ca65fac.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/dbbd880527ea0571e8aeec951ca65fac.jpeg" class="img-polaroid" title="3.jpeg" alt="3.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+3.Oculus rift主体佩戴面<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/0da41e14e9e8d97a898f08d081055ede.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/0da41e14e9e8d97a898f08d081055ede.jpeg" class="img-polaroid" title="4.jpeg" alt="4.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+4.Oculus rift配件 第二套透镜，适合不同人？应该是近视人用？<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/4775051edb0e8eea429441b8a6192463.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/4775051edb0e8eea429441b8a6192463.jpeg" class="img-polaroid" title="5.jpeg" alt="5.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+5.Oculus rift 各种插头配件<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/f546bee8243fd048cdd1930e169dcd6d.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/f546bee8243fd048cdd1930e169dcd6d.jpeg" class="img-polaroid" title="6.jpeg" alt="6.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+6.Oculus rift头部追踪摄像头，可以定位现实中头部的运动轨迹，反馈到游戏当中。<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/cb9a5eb20d9a2fa791a536707297aedc.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/cb9a5eb20d9a2fa791a536707297aedc.jpeg" class="img-polaroid" title="7.jpeg" alt="7.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+7.说明书<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/855c243362d637ed770f11baa1e7b9d7.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/855c243362d637ed770f11baa1e7b9d7.jpeg" class="img-polaroid" title="8.jpeg" alt="8.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+8.Oculus rift全部<br />
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/6a9c74a34d8523cca3ba1cb83f08154f.jpeg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/6a9c74a34d8523cca3ba1cb83f08154f.jpeg" class="img-polaroid" title="9.jpeg" alt="9.jpeg" /></a>
+</div>
+<br />
+<br />
+<br />
+10.Oculus rift 主体<br />
+<br />
+产品做的不错，很精致，虽然也是中国代工，但还是甩国产山寨货几十条街的节奏。<br />
+<br />
+最后，给大家送上几个视频，我要去做体验、开发了！~~<br />
+<br />
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="640" height="400"><param name="movie" value="http://player.youku.com/player.php/sid/XNzU3MDM4ODg4/v.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="allowFullScreen" value="true" /><embed src="http://player.youku.com/player.php/sid/XNzU3MDM4ODg4/v.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="640" height="400" wmode="transparent" allowfullscreen="true"></embed></object></p><br />
+ <br />
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="640" height="400"><param name="movie" value="http://player.youku.com/player.php/sid/XNzYwNzI4NDcy/v.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="allowFullScreen" value="true" /><embed src="http://player.youku.com/player.php/sid/XNzYwNzI4NDcy/v.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="640" height="400" wmode="transparent" allowfullscreen="true"></embed></object></p><br />
+		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="15,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/10">鬼影实录5：鬼次元[左右3D版] </a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-8">VR电影</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 76 次浏览 • 3 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			鬼影实录5：鬼次元[左右3D版VR电影]<br />
+<br />
+简　　介：<br />
+瑞安（克里斯·j·穆雷 Chris J. Murray 饰）与妻子艾米丽（布兰妮·肖 Brittany Shaw 饰）和八岁的女儿莱拉（艾薇·乔治 Ivy George 饰）刚刚搬到了新家，准备庆祝圣诞节，但新房子里总会有一些怪事发生。莱拉行为也越来越诡异，总是喃喃地哼唱着一首歌，或是在跟一名叫托比的假想朋友说 话。瑞安的哥哥迈克（丹·吉尔 Dan Gill 饰）也搬来与他们同住，收拾房间时他发现了一纸箱录像带，录像带中的内容十分惊人……<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+译 名 鬼影实录5：鬼次元/鬼入镜5(台)<br />
+◎片 名 Paranormal Activity: The Ghost Dimension<br />
+◎年 代 2015<br />
+◎国 家 美国<br />
+◎类 别 恐怖<br />
+◎语 言 英语/德语<br />
+◎字 幕 中英双字<br />
+◎上映日期 2015-10-23(美国)<br />
+◎IMDb评分  4.5/10 from 5,456 users<br />
+◎豆瓣评分 4.9/10 from 200 users<br />
+◎片 长 88分钟<br />
+◎导 演 格雷戈里·普罗金 Gregory Plotkin<br />
+◎主 演 克里斯·j·穆雷 Chris J. Murray<br />
+布兰妮·肖 Brittany Shaw<br />
+艾薇·乔治 Ivy George<br />
+丹·吉尔 Dan Gill<br />
+奥利维亚·泰勒·达德利 Olivia Taylor Dudley<br />
+克洛伊·森格瑞 Chloe Csengery<br />
+Jessica Tyler Brown<br />
+唐·麦克马纳斯 Don McManus<br />
+迈克尔·克拉维克 Michael Krawic<br />
+哈莉·福特 Hallie Foote<br />
+艾登·洛夫坎普 Aiden Lovekamp<br />
+卡拉·皮阔 Cara Pifko<br />
+马克·斯达格 Mark Steger<br />
+丽贝卡·拉森 Rebecca Larsen◎<br />
+<br />
+<br />
+点击下载：<br />
+<br />
+	鬼影实录5：鬼次元[左右3D-VR版www.vrzhijia_.com]_.torrent_.zip<br />
+<br />
+<br />
+<br />
+  			<a class="more" href="article/10">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			鬼影实录5：鬼次元[左右3D版VR电影]<br />
+<br />
+简　　介：<br />
+瑞安（克里斯·j·穆雷 Chris J. Murray 饰）与妻子艾米丽（布兰妮·肖 Brittany Shaw 饰）和八岁的女儿莱拉（艾薇·乔治 Ivy George 饰）刚刚搬到了新家，准备庆祝圣诞节，但新房子里总会有一些怪事发生。莱拉行为也越来越诡异，总是喃喃地哼唱着一首歌，或是在跟一名叫托比的假想朋友说 话。瑞安的哥哥迈克（丹·吉尔 Dan Gill 饰）也搬来与他们同住，收拾房间时他发现了一纸箱录像带，录像带中的内容十分惊人……<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160105/68b17d1357abf3e47a6093faa8d531fd.jpg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160105/68b17d1357abf3e47a6093faa8d531fd.jpg" class="img-polaroid" title="ca6568364c1e4d3es.jpg" alt="ca6568364c1e4d3es.jpg" /></a>
+</div>
+<br />
+<br />
+译 名 鬼影实录5：鬼次元/鬼入镜5(台)<br />
+◎片 名 Paranormal Activity: The Ghost Dimension<br />
+◎年 代 2015<br />
+◎国 家 美国<br />
+◎类 别 恐怖<br />
+◎语 言 英语/德语<br />
+◎字 幕 中英双字<br />
+◎上映日期 2015-10-23(美国)<br />
+◎IMDb评分  4.5/10 from 5,456 users<br />
+◎豆瓣评分 4.9/10 from 200 users<br />
+◎片 长 88分钟<br />
+◎导 演 格雷戈里·普罗金 Gregory Plotkin<br />
+◎主 演 克里斯·j·穆雷 Chris J. Murray<br />
+布兰妮·肖 Brittany Shaw<br />
+艾薇·乔治 Ivy George<br />
+丹·吉尔 Dan Gill<br />
+奥利维亚·泰勒·达德利 Olivia Taylor Dudley<br />
+克洛伊·森格瑞 Chloe Csengery<br />
+Jessica Tyler Brown<br />
+唐·麦克马纳斯 Don McManus<br />
+迈克尔·克拉维克 Michael Krawic<br />
+哈莉·福特 Hallie Foote<br />
+艾登·洛夫坎普 Aiden Lovekamp<br />
+卡拉·皮阔 Cara Pifko<br />
+马克·斯达格 Mark Steger<br />
+丽贝卡·拉森 Rebecca Larsen◎<br />
+<br />
+<br />
+点击下载：<br />
+<ul class="aw-upload-file-list">
+	<li><a href="file/download/file_name-6ay85b2x5a6e5b2VNe+8mumsvOasoeWFg1vlt6blj7MzRC1WUueJiHd3dy52cnpoaWppYV8uY29tXV8udG9ycmVudF8uemlw__url-aHR0cDovL3d3dy52cnpoaWppYS5jb20vYmJzL3VwbG9hZHMvYXJ0aWNsZS8yMDE2MDEwNS83ODdkNDcyYWQ2NTFjODc0MzIxMDVhNmVhMWExZjZhZg=="><em class="aw-icon i-upload-file"></em>鬼影实录5：鬼次元[左右3D-VR版www.vrzhijia_.com]_.torrent_.zip</a></li>
+</ul>
+<br />
+<br />
+ 		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="7,12,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/11">Oculus rift cv1 首发配送国家</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 42 次浏览 • 3 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			今年1月6日凌晨，Oculus公布了Rift CV1的首发支持配送的国家（见下表），其中没有中国大陆。<br />
+<br />
+澳大利亚<br />
+比利时<br />
+加拿大<br />
+丹麦<br />
+芬兰<br />
+法国<br />
+德国<br />
+冰岛<br />
+爱尔兰<br />
+意大利<br />
+日本<br />
+荷兰<br />
+新西兰<br />
+挪威<br />
+波兰<br />
+西班牙<br />
+瑞典<br />
+台湾<br />
+英国<br />
+美国 		</div>
+		
+		<div class="hide all-content">
+			今年1月6日凌晨，Oculus公布了Rift CV1的首发支持配送的国家（见下表），其中没有中国大陆。<br />
+<br />
+澳大利亚<br />
+比利时<br />
+加拿大<br />
+丹麦<br />
+芬兰<br />
+法国<br />
+德国<br />
+冰岛<br />
+爱尔兰<br />
+意大利<br />
+日本<br />
+荷兰<br />
+新西兰<br />
+挪威<br />
+波兰<br />
+西班牙<br />
+瑞典<br />
+台湾<br />
+英国<br />
+美国		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/12">Oculus Rift CV1已开放购买！价格599美元</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 60 次浏览 • 2 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			Oculus Rift cv1 已开放购买！价格599美元+运费<br />
+<br />
+此次Oculus实际价格已经超过了4000人民币。<br />
+<br />
+赠送了一个xbox手柄，但touch暂时未有货<br />
+ <br />
+暂不发货中国！<br />
+ <br />
+官方推荐配置<br />
+显卡：NVIDIA GTX 970 / AMD R9 290相当或更高<br />
+处理器：英特尔i5-4590相当或更高<br />
+内存：内存8GB +<br />
+输出：兼容HDMI 1.3视频输出<br />
+输入：3X USB 3端口USB 2端口加1<br />
+操作系统：Windows 7 SP1 64位或更新<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+ <br />
+<br />
+<br />
+	<br />
+<br />
+<br />
+ <br />
+<br />
+ <br />
+国内已有不少网友预定成功，已经排序到4月份发货。<br />
+<br />
+期待收到货那天，将在本站第一时间开箱！敬请期待 			<a class="more" href="article/12">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			Oculus Rift cv1 已开放购买！价格599美元+运费<br />
+<br />
+此次Oculus实际价格已经超过了4000人民币。<br />
+<br />
+赠送了一个xbox手柄，但touch暂时未有货<br />
+ <br />
+暂不发货中国！<br />
+ <br />
+官方推荐配置<br />
+显卡：NVIDIA GTX 970 / AMD R9 290相当或更高<br />
+处理器：英特尔i5-4590相当或更高<br />
+内存：内存8GB +<br />
+输出：兼容HDMI 1.3视频输出<br />
+输入：3X USB 3端口USB 2端口加1<br />
+操作系统：Windows 7 SP1 64位或更新<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160106/f80a46b872de1d126b21db7e0f30106c.jpg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160106/f80a46b872de1d126b21db7e0f30106c.jpg" class="img-polaroid" title="c3879083-c2e6-4ce4-801f-dae64b97e84e.jpg" alt="c3879083-c2e6-4ce4-801f-dae64b97e84e.jpg" /></a>
+</div>
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160106/b136206faa46d9103be201010244cf6f.jpg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160106/b136206faa46d9103be201010244cf6f.jpg" class="img-polaroid" title="4c979135-db21-40d9-bb7d-8f894ca4ed09.jpg" alt="4c979135-db21-40d9-bb7d-8f894ca4ed09.jpg" /></a>
+</div>
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160106/c7d0127086dfe6dff587144367c782e4.jpg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160106/c7d0127086dfe6dff587144367c782e4.jpg" class="img-polaroid" title="40020340-3785-4632-8ee9-dac048671d39.jpg" alt="40020340-3785-4632-8ee9-dac048671d39.jpg" /></a>
+</div>
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160106/444441f4c9e12e1d8175a8396ad6d2d9.jpg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160106/444441f4c9e12e1d8175a8396ad6d2d9.jpg" class="img-polaroid" title="85365160-9760-434a-beaa-2af3cdf7ea50.jpg" alt="85365160-9760-434a-beaa-2af3cdf7ea50.jpg" /></a>
+</div>
+<br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160106/495bf60c858d4b48f832b442a84e5ecb.jpg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160106/495bf60c858d4b48f832b442a84e5ecb.jpg" class="img-polaroid" title="b39b0337-1378-44a6-a163-8c4f88a03ba6.jpg" alt="b39b0337-1378-44a6-a163-8c4f88a03ba6.jpg" /></a>
+</div>
+<br />
+ <br />
+<br />
+<div class="aw-upload-img-list active">
+	<a href="uploads/article/20160106/7f45d44882ee63a375dff1464557e120.jpg" target="_blank" data-fancybox-group="thumb" rel="lightbox"><img src="uploads/article/20160106/7f45d44882ee63a375dff1464557e120.jpg" class="img-polaroid" title="c0697876-ce40-46a1-b3f4-0ddeb2419338.jpg" alt="c0697876-ce40-46a1-b3f4-0ddeb2419338.jpg" /></a>
+</div>
+<br />
+ <br />
+<br />
+ <br />
+国内已有不少网友预定成功，已经排序到4月份发货。<br />
+<br />
+期待收到货那天，将在本站第一时间开箱！敬请期待		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="7,16,12,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/13">Oculus Rift CV1 硬件配置参数</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-4">VR设备</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 42 次浏览 • 2 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			最新的Oculus Rift CV1头显外部材料是用纤维做成的，非常轻便。CV1的规格参数：<br />
+<br />
+FOV：水平方向110度<br />
+<br />
+FPS：90Hz<br />
+<br />
+显示屏：OLED<br />
+<br />
+分辨率：2160 1200 （单眼 1080 x 1200）<br />
+<br />
+镜片：菲涅尔<br />
+<br />
+重量：380g<br />
+<br />
+头部跟踪：6DOF<br />
+<br />
+星座位置跟踪系统<br />
+<br />
+附带支持空间音效耳机<br />
+<br />
+Oculus Rift CV1 pc 推荐配置 http://www.vrzhijia.com/bbs/article/14<br />
+  			<a class="more" href="article/13">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			最新的Oculus Rift CV1头显外部材料是用纤维做成的，非常轻便。CV1的规格参数：<br />
+<br />
+FOV：水平方向110度<br />
+<br />
+FPS：90Hz<br />
+<br />
+显示屏：OLED<br />
+<br />
+分辨率：2160 1200 （单眼 1080 x 1200）<br />
+<br />
+镜片：菲涅尔<br />
+<br />
+重量：380g<br />
+<br />
+头部跟踪：6DOF<br />
+<br />
+星座位置跟踪系统<br />
+<br />
+附带支持空间音效耳机<br />
+<br />
+<a href="article/14" rel="nofollow" target="_blank">Oculus Rift CV1 pc 推荐配置</a> <a href="article/14">http://www.vrzhijia.com/bbs/article/14</a><br />
+ 		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="17,7,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/14">Oculus Rift CV1 推荐PC硬件配置</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-4">VR设备</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 65 次浏览 • 2 天前</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			官方推荐配置<br />
+显卡：NVIDIA GTX 970 / AMD R9 290相当或更高<br />
+处理器：英特尔i5-4590相当或更高<br />
+内存：内存8GB +<br />
+输出：兼容HDMI 1.3视频输出<br />
+输入：3X USB 3端口USB 2端口加1<br />
+操作系统：Windows 7 SP1 64位或更新<br />
+<br />
+Oculus Rift CV1硬件参数看这里：http://www.vrzhijia.com/bbs/article/13<br />
+  			<a class="more" href="article/14">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			官方推荐配置<br />
+显卡：NVIDIA GTX 970 / AMD R9 290相当或更高<br />
+处理器：英特尔i5-4590相当或更高<br />
+内存：内存8GB +<br />
+输出：兼容HDMI 1.3视频输出<br />
+输入：3X USB 3端口USB 2端口加1<br />
+操作系统：Windows 7 SP1 64位或更新<br />
+<br />
+<a href="article/13" rel="nofollow" target="_blank">Oculus Rift CV1硬件参数</a>看这里：<a href="article/13">http://www.vrzhijia.com/bbs/article/13</a><br />
+ 		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="3,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/2">VR之家论坛社区正式上线啦！！</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 32 次浏览 • 2015-12-29 17:39</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			VR之家论坛社区正式上线啦，现已开放注册中！！ 		</div>
+		
+		<div class="hide all-content">
+			VR之家论坛社区正式上线啦，现已开放注册中！！		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item active" data-topic-id="">
+	<a class="aw-user-name hidden-xs" data-id="11" href="people/红�%259D%258F" rel="nofollow"><img src="uploads/avatar/000/00/00/11_avatar_max.jpg" alt="" /></a>	<div class="aw-question-content">
+		<h4>
+						<a href="question/14">虚拟现实有哪几大分类？</a>
+					</h4>
+				<a href="question/14#!answer_form" class="pull-right text-color-999">回复</a>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-5">常见问题</a>
+				• 													<a href="people/红�%259D%258F" class="aw-user-name">红杏</a>				<span class="text-color-999">发起了问题 • 1 人关注 • 0 个回复 • 19 次浏览 • 2016-01-02 07:53				</span>
+									<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="7,6,5,4,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/3">帕尔默·拉奇称Oculus Rift会是最好的VR产品</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 1 个评论 • 47 次浏览 • 2015-12-29 17:43</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			     近日，Oculus VR的创始人帕尔默·拉奇(PalmerLuckey)在推特表示，Oculus Rift将会是未来最好的虚拟现实产品。尽管价格可能很昂贵。<br />
+<br />
+     Oculus Rift是最早涉足虚拟现实的设备之一，目前发售的几个开发者版本价格都相对昂贵，对某些人甚至可以用天价来形容。当被粉丝问及如何与售价20美元的Cardboard VR竞争时，拉奇表示Rift非常棒，两者之间的差距好比是美酒与浑水一般有着天壤之别。<br />
+<br />
+     拉奇敢用“浑水”这词来比喻Cardboard，可见他的自信，事实上两者的差距也确实非常的大。<br />
+<br />
+     当然拉奇对Cardboard还是有一定肯定的，因为谷歌之前发放了数千份Cardboard设备成功的让很多人第一次接触到了虚拟现实的世界。但是在一个盒子里玩手机和带着Rift的体验是完全不一样的，Rift是重新创造一个世界让你感觉身临其境。而手机的传感器和屏幕并没有对VR做特殊的优化，所以难以做到这一点。 拉奇强调，好的体验意味着更多的投入，所以带来了价格的攀升。<br />
+<br />
+     PalmerLuckey认为VR首先会变成所有人都想要的东西，然后才是所有人都有能力购买的东西。科技的进步和量产化会降低成本，但第一代的Rift硬件可能主要是‘早期尝试者’购买。因为Rift的硬件成本太高导致价格可能会特别高。很多人对价格这事非常上心，而拉奇也表示用户们不应该拿Rift和350美元的开发者版本相比，因为它太基础太落后了。<br />
+<br />
+     Oculus Rift将在明年正式登场，根据目前的开发者版本的使用体验来看，确实担得上美酒之称，不过它是否拥有藐视其他VR产品的资本?我还需等待正式产品的出现。 			<a class="more" href="article/3">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			     近日，Oculus <a href="../index.html" rel="nofollow" target="_blank">VR</a>的创始人帕尔默·拉奇(PalmerLuckey)在推特表示，Oculus Rift将会是未来最好的<a href="../index.html" rel="nofollow" target="_blank">虚拟现实</a>产品。尽管价格可能很昂贵。<br />
+<br />
+     Oculus Rift是最早涉足虚拟现实的设备之一，目前发售的几个开发者版本价格都相对昂贵，对某些人甚至可以用天价来形容。当被粉丝问及如何与售价20美元的Cardboard VR竞争时，拉奇表示Rift非常棒，两者之间的差距好比是美酒与浑水一般有着天壤之别。<br />
+<br />
+     拉奇敢用“浑水”这词来比喻Cardboard，可见他的自信，事实上两者的差距也确实非常的大。<br />
+<br />
+     当然拉奇对Cardboard还是有一定肯定的，因为谷歌之前发放了数千份Cardboard设备成功的让很多人第一次接触到了虚拟现实的世界。但是在一个盒子里玩手机和带着Rift的体验是完全不一样的，Rift是重新创造一个世界让你感觉身临其境。而手机的传感器和屏幕并没有对VR做特殊的优化，所以难以做到这一点。 拉奇强调，好的体验意味着更多的投入，所以带来了价格的攀升。<br />
+<br />
+     PalmerLuckey认为VR首先会变成所有人都想要的东西，然后才是所有人都有能力购买的东西。科技的进步和量产化会降低成本，但第一代的Rift硬件可能主要是‘早期尝试者’购买。因为Rift的硬件成本太高导致价格可能会特别高。很多人对价格这事非常上心，而拉奇也表示用户们不应该拿Rift和350美元的开发者版本相比，因为它太基础太落后了。<br />
+<br />
+     Oculus Rift将在明年正式登场，根据目前的开发者版本的使用体验来看，确实担得上美酒之称，不过它是否拥有藐视其他VR产品的资本?我还需等待正式产品的出现。		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+<div class="aw-item article" data-topic-id="8,9,10,">
+	<a class="aw-user-name hidden-xs" data-id="2" href="people/2" rel="nofollow"><img src="uploads/avatar/000/00/00/02_avatar_max.jpg" alt="" /><i class="icon icon-v i-ve"></i></a>	<div class="aw-question-content">
+		<h4>
+						<a href="article/4">如何制作VR游戏?用什么引擎软件?</a>
+					</h4>
+		
+		<p>
+							<a class="aw-question-tags" href="explore/category-1">VR动态</a>
+				• 							<a href="people/2" class="aw-user-name">哆啦A梦</a> <span class="text-color-999">发表了文章 • 0 个评论 • 97 次浏览 • 2015-12-30 06:04</span>
+						<span class="text-color-999 related-topic hide"> • 来自相关话题</span>
+		</p>
+
+				<!-- 文章内容调用 -->
+		<div class="markitup-box">
+			<div class="img pull-right"></div>
+			要制作VR小游戏，首先要有一定的3d软件使用基础，比如unity3D，或者 Maya<br />
+<br />
+至少学会其中一款吧，可能这只是最基础的。可以从这里入门。<br />
+<br />
+不过，强烈推荐unity3d 因为他能与oculus眼睛很好的对接。毕竟是游戏引擎<br />
+<br />
+推荐51自学网：<br />
+Unity3d：http://www.51zxw.net/list.aspx?cid=454<br />
+Maya： http://www.51zxw.net/trans.aspx?id=22<br />
+<br />
+软件自行百度下载安装吧 			<a class="more" href="article/4">查看全部</a>
+					</div>
+		
+		<div class="hide all-content">
+			要制作VR小游戏，首先要有一定的3d软件使用基础，比如unity3D，或者 Maya<br />
+<br />
+至少学会其中一款吧，可能这只是最基础的。可以从这里入门。<br />
+<br />
+不过，强烈推荐unity3d 因为他能与oculus眼睛很好的对接。毕竟是游戏引擎<br />
+<br />
+推荐51自学网：<br />
+Unity3d：<a href="http://www.51zxw.net/list.aspx?cid=454" rel="nofollow" target="_blank">http://www.51zxw.net/list.aspx?cid=454</a><br />
+Maya： <a href="http://www.51zxw.net/trans.aspx?id=22" rel="nofollow" target="_blank">http://www.51zxw.net/trans.aspx?id=22</a><br />
+<br />
+软件自行百度下载安装吧		</div>
+		<!-- end 文章内容调用 -->
+			</div>
+</div>
+							</div>
+						</div>
+						<div class="mod-footer">
+							<div class="page-control"><ul class="pagination pull-right"><li class="active"><a href="javascript:;">1</a></li><li><a href="sort_type-hot__day-30__is_recommend-0__page-2">2</a></li><li><a href="sort_type-hot__day-30__is_recommend-0__page-2">&gt;</a></li></ul></div>						</div>
+					</div>
+				</div>
+
+				<!-- 侧边栏 -->
+				<div class="col-sm-12 col-md-3 aw-side-bar hidden-xs hidden-sm">
+										<div class="aw-mod aw-text-align-justify">
+	<div class="mod-head">
+		<a href="topic/channel-hot" class="pull-right">更多 &gt;</a>
+		<h3>热门话题</h3>
+	</div>
+	<div class="mod-body">
+							<dl>
+				<dt class="pull-left aw-border-radius-5">
+					<a href="topic/Oculus&#32;Rift"><img alt="" src="static/common/topic-mid-img.png" /></a>
+				</dt>
+				<dd class="pull-left">
+					<p class="clearfix">
+						<span class="topic-tag">
+							<a href="topic/Oculus&#32;Rift" class="text" data-id="7">Oculus Rift</a>
+						</span>
+					</p>
+					<p><b>7</b> 个问题, <b>1</b> 人关注</p>
+				</dd>
+			</dl>
+					<dl>
+				<dt class="pull-left aw-border-radius-5">
+					<a href="topic/Rift&#32;CV1"><img alt="" src="static/common/topic-mid-img.png" /></a>
+				</dt>
+				<dd class="pull-left">
+					<p class="clearfix">
+						<span class="topic-tag">
+							<a href="topic/Rift&#32;CV1" class="text" data-id="12">Rift CV1</a>
+						</span>
+					</p>
+					<p><b>3</b> 个问题, <b>1</b> 人关注</p>
+				</dd>
+			</dl>
+					<dl>
+				<dt class="pull-left aw-border-radius-5">
+					<a href="topic/�%2599%259A�%258B%259F�%258E��%259E�%258E�"><img alt="" src="static/common/topic-mid-img.png" /></a>
+				</dt>
+				<dd class="pull-left">
+					<p class="clearfix">
+						<span class="topic-tag">
+							<a href="topic/�%2599%259A�%258B%259F�%258E��%259E�%258E�" class="text" data-id="11">虚拟现实现</a>
+						</span>
+					</p>
+					<p><b>2</b> 个问题, <b>1</b> 人关注</p>
+				</dd>
+			</dl>
+					<dl>
+				<dt class="pull-left aw-border-radius-5">
+					<a href="topic/cv1"><img alt="" src="static/common/topic-mid-img.png" /></a>
+				</dt>
+				<dd class="pull-left">
+					<p class="clearfix">
+						<span class="topic-tag">
+							<a href="topic/cv1" class="text" data-id="13">cv1</a>
+						</span>
+					</p>
+					<p><b>1</b> 个问题, <b>1</b> 人关注</p>
+				</dd>
+			</dl>
+					<dl>
+				<dt class="pull-left aw-border-radius-5">
+					<a href="topic/DK2"><img alt="" src="static/common/topic-mid-img.png" /></a>
+				</dt>
+				<dd class="pull-left">
+					<p class="clearfix">
+						<span class="topic-tag">
+							<a href="topic/DK2" class="text" data-id="14">DK2</a>
+						</span>
+					</p>
+					<p><b>1</b> 个问题, <b>1</b> 人关注</p>
+				</dd>
+			</dl>
+					</div>
+</div>
+					<div class="aw-mod aw-text-align-justify">
+	<div class="mod-head">
+		<a href="people/index.html" class="pull-right">更多 &gt;</a>
+		<h3>热门用户</h3>
+	</div>
+	<div class="mod-body">
+					
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/johnsonkiss"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/johnsonkiss" data-id="18" class="aw-user-name">johnsonkiss						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/adsyyg1989"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/adsyyg1989" data-id="20" class="aw-user-name">adsyyg1989						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/johnhe21"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/johnhe21" data-id="13" class="aw-user-name">johnhe21						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/hack"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/hack" data-id="1" class="aw-user-name">hack						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/elson"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/elson" data-id="21" class="aw-user-name">elson						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+					</div>
+</div>				</div>
+				<!-- end 侧边栏 -->
+			</div>
+<div class="aw-content-wrap clearfix">
+<span>合作媒体:</span>
+<a href="http://bbs.91xuxu.com/" target="_blank">虚虚VR论坛</a>  <a href="../index.html" target="_blank">VR之家</a>
+</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="aw-footer-wrap">
+	<div class="aw-footer">
+		Copyright © <a href="../index.html" target="_blank">VR之家</a> <a href="../bbs.1">VR之家开发技术社区</a> 2016<span class="hidden-xs"> - 粤ICP备14057610号-1, All Rights Reserved <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ff04f7071632918a7161d92ab6834b81";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+ <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252994616'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1252994616%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span>
+
+
+			</div>
+</div>
+
+<a class="aw-back-top hidden-xs" href="javascript:;" onclick="$.scrollTo(1, 600, {queue:true});"><i class="icon icon-up"></i></a>
+
+
+<!-- DO NOT REMOVE -->
+<div id="aw-ajax-box" class="aw-ajax-box"></div>
+
+<div style="display:none;" id="__crond">
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#__crond').html(unescape('%3Cimg%20src%3D%22' + G_BASE_URL + '/crond/run/1452332478%22%20width%3D%221%22%20height%3D%221%22%20/%3E'));
+		});
+	</script>
+</div>
+
+<!-- Escape time: 0.28631997108459 --><!-- / DO NOT REMOVE -->
+
+</body>
+</html>

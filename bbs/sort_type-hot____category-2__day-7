@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta name="renderer" content="webkit" />
+<title>VR技术 - VR开发技术论坛 - VR论坛互动社区 - VR之家论坛</title>
+<meta name="keywords" content="VR论坛,VR开发,VR社区,VR技术,VR之家" />
+<meta name="description" content="VR技术"  />
+<base href="" /><!--[if IE]></base><![endif]-->
+<link href="static/css/default/img/favicon.ico?v=20151125" rel="shortcut icon" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="static/css/icon.css" />
+
+<link href="static/css/default/common.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="static/css/default/link.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="static/js/plug_module/style.css?v=20151125" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+	var _4A9A9DDF89BDC51843B2784E1E7AF4D0="";
+	var G_POST_HASH=_4A9A9DDF89BDC51843B2784E1E7AF4D0;
+	var G_INDEX_SCRIPT = "";
+	var G_SITE_NAME = "VR开发技术论坛 - VR论坛互动社区 - VR之家论坛";
+	var G_BASE_URL = "http://www.vrzhijia.com/bbs";
+	var G_STATIC_URL = "http://www.vrzhijia.com/bbs/static";
+	var G_UPLOAD_URL = "http://www.vrzhijia.com/bbs/uploads";
+	var G_USER_ID = "";
+	var G_USER_NAME = "";
+	var G_UPLOAD_ENABLE = "N";
+	var G_UNREAD_NOTIFICATION = 0;
+	var G_NOTIFICATION_INTERVAL = 100000;
+	var G_CAN_CREATE_TOPIC = "";
+	var G_ADVANCED_EDITOR_ENABLE = "Y";
+
+	</script>
+<script src="static/js/jquery.2.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/jquery.form.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/plug_module/plug-in_module.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/aws.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/aw_template.js?v=20151125" type="text/javascript"></script>
+<script src="static/js/app.js?v=20151125" type="text/javascript"></script>
+<script type="text/javascript" src="static/js/compatibility.js"></script>
+<!--[if lte IE 8]>
+	<script type="text/javascript" src="http://www.vrzhijia.com/bbs/static/js/respond.js"></script>
+<![endif]-->
+</head>
+<noscript unselectable="on" id="noscript">
+    <div class="aw-404 aw-404-wrap container">
+        <img src="static/common/no-js.jpg">
+        <p>你的浏览器禁用了JavaScript, 请开启后刷新浏览器获得更好的体验!</p>
+    </div>
+</noscript>
+<body>
+	<div class="aw-top-menu-wrap">
+		<div class="container">
+			<!-- logo -->
+			<div class="aw-logo hidden-xs">
+				<a href="../index.html" title="VR之家"></a>
+			</div>
+			<!-- end logo -->
+			<!-- 搜索框 -->
+			<div class="aw-search-box  hidden-xs hidden-sm">
+				<form class="navbar-search" action="http://www.vrzhijia.com/bbs/search/" id="global_search_form" method="post">
+					<input class="form-control search-query" type="text" placeholder="搜索问题、话题或人" autocomplete="off" name="q" id="aw-search-query" />
+					<span title="搜索" id="global_search_btns" onClick="$('#global_search_form').submit();"><i class="icon icon-search"></i></span>
+					<div class="aw-dropdown">
+						<div class="mod-body">
+							<p class="title">输入关键字进行搜索</p>
+							<ul class="aw-dropdown-list hide"></ul>
+							<p class="search"><span>搜索:</span><a onClick="$('#global_search_form').submit();"></a></p>
+						</div>
+						<div class="mod-footer">
+							<a href="publish" onClick="$('#header_publish').click();" class="pull-right btn btn-mini btn-success publish">发起问题</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!-- end 搜索框 -->
+			<!-- 导航 -->
+			<div class="aw-top-nav navbar">
+				<div class="navbar-header">
+				  <button  class="navbar-toggle pull-left">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+				<nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">
+				  <ul class="nav navbar-nav">
+<li><a href="../bbs.1" class="active" title="vr社区首页"><i class="icon icon-list"></i>社    区首页</a></li>
+
+										<!--<li><a href="http://www.vrzhijia.com/bbs" class="active"><i class="icon icon-list"></i> 发现</a></li>-->
+
+					
+					<!-- <li><a href="http://www.vrzhijia.com/bbs/question/" class="">问题</a></li>
+
+					<li><a href="http://www.vrzhijia.com/bbs/article/" class="">文章</a></li> -->
+
+					<li><a href="topic/index.html" ><i class="icon icon-topic"></i> 话题</a></li>
+															<li>
+						<a style="font-weight:bold;">· · ·</a>
+						<div class="dropdown-list pull-right">
+							<ul id="extensions-nav-list">
+																							</ul>
+						</div>
+					</li>
+				  </ul>
+				</nav>
+			</div>
+			<!-- end 导航 -->
+			<!-- 用户栏 -->
+			<div class="aw-user-nav">
+				<!-- 登陆&注册栏 -->
+									<a class="login btn btn-normal btn-primary" href="account/login/index.html">登录</a>
+					<a class="register btn btn-normal btn-success" href="account/register/index.html">注册</a>								<!-- end 登陆&注册栏 -->
+			</div>
+			<!-- end 用户栏 -->
+			<!-- 发起 -->
+						<!-- end 发起 -->
+		</div>
+	</div>
+	
+
+<div class="aw-container-wrap">
+	<div class="container category">	<div class="row">	<div class="col-sm-12">			<ul class="list">			<li><a href="explore/index.html">全部</a></li>												<li>				<a href="explore/category-7">VR开发</a>							</li>												<li>				<a href="explore/category-1">VR动态</a>							</li>												<li class="active">				<a href="explore/category-2">技术</a>							</li>												<li>				<a href="explore/category-4">设备</a>							</li>												<li>				<a href="explore/category-8">VR电影</a>							</li>												<li>				<a href="explore/category-3">DIY</a>							</li>												<li>				<a href="explore/category-5">常见问题</a>							</li>												<li>				<a href="explore/category-6">新手入门</a>							</li>																				</ul>		</div></div></div>
+	<div class="container">
+		<div class="row">
+			<div class="aw-content-wrap clearfix">
+				<div class="col-sm-12 col-md-9 aw-main-content">
+					<!-- 新消息通知 -->
+					<div class="aw-mod aw-notification-box hide" id="index_notification">
+						<div class="mod-head common-head">
+							<h2>
+								<span class="pull-right"><a href="account/setting/privacy/index.html#notifications" class="text-color-999"><i class="icon icon-setting"></i> 通知设置</a></span>
+								<i class="icon icon-bell"></i>新通知<em class="badge badge-important" name="notification_unread_num"></em>
+							</h2>
+						</div>
+						<div class="mod-body">
+							<ul id="notification_list"></ul>
+						</div>
+						<div class="mod-footer clearfix">
+							<a href="javascript:;" onclick="AWS.Message.read_notification(false, 0, false);" class="pull-left btn btn-mini btn-gray">我知道了</a>
+							<a href="notifications/index.html" class="pull-right btn btn-mini btn-success">查看所有</a>
+						</div>
+					</div>
+					<!-- end 新消息通知 -->
+					<!-- tab切换 -->
+					<ul class="nav nav-tabs aw-nav-tabs active hidden-xs">
+						<li><a href="category-2__sort_type-unresponsive">等待回复</a></li>
+						<li class="active"><a href="category-2__sort_type-hot__day-7" id="sort_control_hot">热门</a></li>
+						<li><a href="category-2__is_recommend-1">推荐</a></li>
+						<li><a href="category-2">最新</a></li>
+
+						<h2 class="hidden-xs">VR技术</h2>
+					</ul>
+					<!-- end tab切换 -->
+
+										<!-- 自定义tab切换 -->
+					<div class="aw-tabs">
+						<ul>
+							<li><a href="sort_type-hot____category-2__day-30" day="30">30天</a></li>
+						  	<li class="active"><a href="sort_type-hot____category-2__day-7" day="7">7天</a></li>
+						  	<li><a href="sort_type-hot____category-2__day-1" day="1">当天</a></li>
+						</ul>
+					</div>
+					<!-- end 自定义tab切换 -->
+					
+					<div class="aw-mod aw-explore-list">
+						<div class="mod-body">
+							<div class="aw-common-list">
+															</div>
+						</div>
+						<div class="mod-footer">
+													</div>
+					</div>
+				</div>
+
+				<!-- 侧边栏 -->
+				<div class="col-sm-12 col-md-3 aw-side-bar hidden-xs hidden-sm">
+										<div class="aw-mod aw-text-align-justify">
+	<div class="mod-head">
+		<a href="topic/channel-hot" class="pull-right">更多 &gt;</a>
+		<h3>热门话题</h3>
+	</div>
+	<div class="mod-body">
+			</div>
+</div>
+					<div class="aw-mod aw-text-align-justify">
+	<div class="mod-head">
+		<a href="people/index.html" class="pull-right">更多 &gt;</a>
+		<h3>热门用户</h3>
+	</div>
+	<div class="mod-body">
+					
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/johnsonkiss"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/johnsonkiss" data-id="18" class="aw-user-name">johnsonkiss						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/yelang360"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/yelang360" data-id="17" class="aw-user-name">yelang360						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/PIMAX"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/PIMAX" data-id="19" class="aw-user-name">PIMAX						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/hack"><img alt="" src="static/common/avatar-mid-img.png" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/hack" data-id="1" class="aw-user-name">hack						</a>
+				<p class="signature"></p>
+				<p><b>0</b> 个问题, <b>0</b> 次赞同</p>
+			</dd>
+		</dl>
+			
+		<dl>
+			<dt class="pull-left aw-border-radius-5">
+				<a href="people/2"><img alt="" src="uploads/avatar/000/00/00/02_avatar_mid.jpg" /></a>
+			</dt>
+			<dd class="pull-left">
+				<a href="people/2" data-id="2" class="aw-user-name">哆啦A梦<i class="icon-v i-ve" title="企业认证"></i>						</a>
+				<p class="signature"></p>
+				<p><b>5</b> 个问题, <b>10</b> 次赞同</p>
+			</dd>
+		</dl>
+					</div>
+</div>				</div>
+				<!-- end 侧边栏 -->
+			</div>
+<div class="aw-content-wrap clearfix">
+<span>合作媒体:</span>
+<a href="http://bbs.91xuxu.com/" target="_blank">虚虚VR论坛</a>  <a href="../index.html" target="_blank">VR之家</a>
+</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="aw-footer-wrap">
+	<div class="aw-footer">
+		Copyright © <a href="../index.html" target="_blank">VR之家</a> <a href="../bbs.1">VR之家开发技术社区</a> 2016<span class="hidden-xs"> - 粤ICP备14057610号-1, All Rights Reserved <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ff04f7071632918a7161d92ab6834b81";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+ <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252994616'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1252994616%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span>
+
+
+			</div>
+</div>
+
+<a class="aw-back-top hidden-xs" href="javascript:;" onclick="$.scrollTo(1, 600, {queue:true});"><i class="icon icon-up"></i></a>
+
+
+<!-- DO NOT REMOVE -->
+<div id="aw-ajax-box" class="aw-ajax-box"></div>
+
+<div style="display:none;" id="__crond">
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#__crond').html(unescape('%3Cimg%20src%3D%22' + G_BASE_URL + '/crond/run/1452332470%22%20width%3D%221%22%20height%3D%221%22%20/%3E'));
+		});
+	</script>
+</div>
+
+<!-- Escape time: 0.080793142318726 --><!-- / DO NOT REMOVE -->
+
+</body>
+</html>

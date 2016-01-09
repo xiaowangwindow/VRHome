@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta name="renderer" content="webkit" />
+<title>哆啦A梦 的个人主页 - VR开发技术论坛 - VR论坛互动社区 - VR之家论坛</title>
+<meta name="keywords" content="VR论坛,VR开发,VR社区,VR技术,VR之家" />
+<meta name="description" content="VR之家社区,专注行业,开发与技术分享,为VR爱好者提供交流学习平台,VR开发者的乐园。VR之家-国内首家专业VR游戏软件下载网站"  />
+<base href="" /><!--[if IE]></base><![endif]-->
+<link href="../static/css/default/img/favicon.ico?v=20151125" rel="shortcut icon" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/icon.css" />
+
+<link href="../static/css/default/common.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="../static/css/default/link.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="../static/js/plug_module/style.css?v=20151125" rel="stylesheet" type="text/css" />
+<link href="../static/css/default/user.css?v=20151125" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+	var _F376DB3E2FA57E9A24073F4BAC9CB1C0="";
+	var G_POST_HASH=_F376DB3E2FA57E9A24073F4BAC9CB1C0;
+	var G_INDEX_SCRIPT = "";
+	var G_SITE_NAME = "VR开发技术论坛 - VR论坛互动社区 - VR之家论坛";
+	var G_BASE_URL = "http://www.vrzhijia.com/bbs";
+	var G_STATIC_URL = "http://www.vrzhijia.com/bbs/static";
+	var G_UPLOAD_URL = "http://www.vrzhijia.com/bbs/uploads";
+	var G_USER_ID = "";
+	var G_USER_NAME = "";
+	var G_UPLOAD_ENABLE = "N";
+	var G_UNREAD_NOTIFICATION = 0;
+	var G_NOTIFICATION_INTERVAL = 100000;
+	var G_CAN_CREATE_TOPIC = "";
+	var G_ADVANCED_EDITOR_ENABLE = "Y";
+
+	</script>
+<script src="../static/js/jquery.2.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/jquery.form.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/plug_module/plug-in_module.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/aws.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/aw_template.js?v=20151125" type="text/javascript"></script>
+<script src="../static/js/app.js?v=20151125" type="text/javascript"></script>
+<script type="text/javascript" src="../static/js/compatibility.js"></script>
+<!--[if lte IE 8]>
+	<script type="text/javascript" src="http://www.vrzhijia.com/bbs/static/js/respond.js"></script>
+<![endif]-->
+</head>
+<noscript unselectable="on" id="noscript">
+    <div class="aw-404 aw-404-wrap container">
+        <img src="../static/common/no-js.jpg">
+        <p>你的浏览器禁用了JavaScript, 请开启后刷新浏览器获得更好的体验!</p>
+    </div>
+</noscript>
+<body>
+	<div class="aw-top-menu-wrap">
+		<div class="container">
+			<!-- logo -->
+			<div class="aw-logo hidden-xs">
+				<a href="../../index.html" title="VR之家"></a>
+			</div>
+			<!-- end logo -->
+			<!-- 搜索框 -->
+			<div class="aw-search-box  hidden-xs hidden-sm">
+				<form class="navbar-search" action="http://www.vrzhijia.com/bbs/search/" id="global_search_form" method="post">
+					<input class="form-control search-query" type="text" placeholder="搜索问题、话题或人" autocomplete="off" name="q" id="aw-search-query" />
+					<span title="搜索" id="global_search_btns" onClick="$('#global_search_form').submit();"><i class="icon icon-search"></i></span>
+					<div class="aw-dropdown">
+						<div class="mod-body">
+							<p class="title">输入关键字进行搜索</p>
+							<ul class="aw-dropdown-list hide"></ul>
+							<p class="search"><span>搜索:</span><a onClick="$('#global_search_form').submit();"></a></p>
+						</div>
+						<div class="mod-footer">
+							<a href="../publish" onClick="$('#header_publish').click();" class="pull-right btn btn-mini btn-success publish">发起问题</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!-- end 搜索框 -->
+			<!-- 导航 -->
+			<div class="aw-top-nav navbar">
+				<div class="navbar-header">
+				  <button  class="navbar-toggle pull-left">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+				<nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">
+				  <ul class="nav navbar-nav">
+<li><a href="../../bbs.1" class="active" title="vr社区首页"><i class="icon icon-list"></i>社    区首页</a></li>
+
+										<!--<li><a href="http://www.vrzhijia.com/bbs" class=""><i class="icon icon-list"></i> 发现</a></li>-->
+
+					
+					<!-- <li><a href="http://www.vrzhijia.com/bbs/question/" class="">问题</a></li>
+
+					<li><a href="http://www.vrzhijia.com/bbs/article/" class="">文章</a></li> -->
+
+					<li><a href="../topic/index.html" ><i class="icon icon-topic"></i> 话题</a></li>
+															<li>
+						<a style="font-weight:bold;">· · ·</a>
+						<div class="dropdown-list pull-right">
+							<ul id="extensions-nav-list">
+																							</ul>
+						</div>
+					</li>
+				  </ul>
+				</nav>
+			</div>
+			<!-- end 导航 -->
+			<!-- 用户栏 -->
+			<div class="aw-user-nav">
+				<!-- 登陆&注册栏 -->
+									<a class="login btn btn-normal btn-primary" href="../account/login/index.html">登录</a>
+					<a class="register btn btn-normal btn-success" href="../account/register/index.html">注册</a>								<!-- end 登陆&注册栏 -->
+			</div>
+			<!-- end 用户栏 -->
+			<!-- 发起 -->
+						<!-- end 发起 -->
+		</div>
+	</div>
+	
+
+<div class="aw-container-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="aw-content-wrap clearfix">
+                <div class="col-sm-12 col-md-9 aw-main-content">
+                    <!-- 用户数据内容 -->
+                    <div class="aw-mod aw-user-detail-box">
+                        <div class="mod-head">
+                            <img src="../uploads/avatar/000/00/00/02_avatar_max.jpg" alt="哆啦A梦" />
+                            <span class="pull-right operate">
+                                                            </span>
+                            <h1>哆啦A梦 <i class="icon-v  i-ve" title="企业认证"></i></h1>
+                            <p class="text-color-999"></p>
+                            <p class="aw-user-flag">
+                                                                                                                            </p>
+                        </div>
+                        <div class="mod-body">
+                            <div class="meta">
+                                <span><i class="icon icon-prestige"></i> 威望 : <em class="aw-text-color-green">12</em></span>
+                                <span><i class="icon icon-score"></i> 积分 : <em class="aw-text-color-orange">2023</em></span>                                <span><i class="icon icon-agree"></i> 赞同 : <em class="aw-text-color-orange">10</em></span>
+                                <span><i class="icon icon-thank"></i> 感谢 : <em class="aw-text-color-orange">0</em></span>
+                            </div>
+                                                        <!-- 擅长话题 -->
+                            <div class="good-at-topics clearfix">
+                                <h2>擅长话题</h2>
+                                <ul>
+                                                                        <li>
+                                        <span class="topic-tag">
+                                            <a href="../topic/Unity3d" class="text" data-id="10">Unity3d</a>
+                                        </span>
+                                        <span>
+                                            <i class="icon icon-agree"></i> 1&nbsp;&nbsp;
+                                            <i class="icon icon-thank"></i> 0                                        </span>
+                                    </li>
+                                                                        <li>
+                                        <span class="topic-tag">
+                                            <a href="../topic/Maya" class="text" data-id="9">Maya</a>
+                                        </span>
+                                        <span>
+                                            <i class="icon icon-agree"></i> 1&nbsp;&nbsp;
+                                            <i class="icon icon-thank"></i> 0                                        </span>
+                                    </li>
+                                                                    </ul>
+                            </div>
+                            <!-- end 擅长话题 -->
+                            
+                        </div>
+                        <div class="mod-footer">
+                            <ul class="nav nav-tabs aw-nav-tabs">
+                                <li class="active"><a href="../../bbs.1#overview" id="page_overview" data-toggle="tab">概述</a></li>
+                                <li><a href="../../bbs.1#questions" id="page_questions" data-toggle="tab">发问<span class="badge">0</span></a></li>
+                                <li><a href="../../bbs.1#answers" id="page_answers" data-toggle="tab">回复<span class="badge">5</span></a></li>
+                                <li><a href="../../bbs.1#articles" id="page_articles" data-toggle="tab">文章<span class="badge">14</span></a></li>
+                                <li><a href="../../bbs.1#focus" id="page_focus" data-toggle="tab">关注</a></li>
+                                <li><a href="../../bbs.1#actions" id="page_actions" data-toggle="tab">动态</a></li>
+                                <li><a href="../../bbs.1#detail" id="page_detail" data-toggle="tab">详细资料</a></li>
+                                                            </ul>
+                        </div>
+                    </div>
+                    <!-- end 用户数据内容 -->
+
+                    <div class="aw-user-center-tab">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="overview">
+                                <!-- 回复 -->
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3><a class="pull-right aw-more-content" href="javascript:;" onclick="$('#page_answers').click();">更多 »</a>回复</h3>
+                                    </div>
+                                    <div class="mod-body">
+                                        <div class="aw-profile-answer-list">
+                                                                                                                                            <div class="aw-item">
+                                                    <div class="mod-head">
+                                                        <h4><a href="../question/15">虚拟现实行业有哪些软件？</a></h4>
+                                                    </div>
+                                                    <div class="mod-body">
+                                                        <span class="aw-border-radius-5 count pull-left"><i class="icon icon-agree"></i>1</span>
+                                                        <p class="aw-hide-txt">maya Unity3d  这是目前最主的开发引擎。也是最好的入门选择。</p>
+                                                    </div>
+                                                </div>
+                                                                                                <div class="aw-item">
+                                                    <div class="mod-head">
+                                                        <h4><a href="../question/16">虚拟现实软件开发流程有哪些？</a></h4>
+                                                    </div>
+                                                    <div class="mod-body">
+                                                        <span class="aw-border-radius-5 count pull-left"><i class="icon icon-agree"></i>1</span>
+                                                        <p class="aw-hide-txt">常见的虚拟现实系统有以下几部分组成： 　　
+1)效果发生器：效果发生器是完成人与虚拟环境交互的硬件接口装置，包括人们产生现实沉浸感受到的各类输出装置，例如头盔显示器、立体声耳机;还包括能测定视线方向和手指动作的输入装置，例如头部方位探测器和数据手套等
+
+2)实...</p>
+                                                    </div>
+                                                </div>
+                                                                                                <div class="aw-item">
+                                                    <div class="mod-head">
+                                                        <h4><a href="../question/17">虚拟现实VR概念股有哪些,特别是龙头股</a></h4>
+                                                    </div>
+                                                    <div class="mod-body">
+                                                        <span class="aw-border-radius-5 count pull-left"><i class="icon icon-agree"></i>1</span>
+                                                        <p class="aw-hide-txt">国内在虚拟现实：暴风科技（300431）旗下的暴风魔镜。
+天音控股（000829）持股暴风魔镜8%；
+华谊兄弟（300027）持有暴风魔镜5%股权；
+爱施德（002416）持有暴风魔镜3%股权。
+
+联络互动（002280）：
+全资子公司数字天域（香港）以150...</p>
+                                                    </div>
+                                                </div>
+                                                                                                <div class="aw-item">
+                                                    <div class="mod-head">
+                                                        <h4><a href="../question/7">Oculus Rift CV1 消费版本什么时候上市呢</a></h4>
+                                                    </div>
+                                                    <div class="mod-body">
+                                                        <span class="aw-border-radius-5 count pull-left"><i class="icon icon-agree"></i>1</span>
+                                                        <p class="aw-hide-txt">官方公布说在2016年第一季度。静等吧</p>
+                                                    </div>
+                                                </div>
+                                                                                                <div class="aw-item">
+                                                    <div class="mod-head">
+                                                        <h4><a href="../question/18">虚拟现实系统有哪些特征？</a></h4>
+                                                    </div>
+                                                    <div class="mod-body">
+                                                        <span class="aw-border-radius-5 count pull-left"><i class="icon icon-agree"></i>1</span>
+                                                        <p class="aw-hide-txt">虚拟现实是利用电脑模拟产生一个三度空间的虚拟世界，提供使用者关于视觉、听觉、触觉等感官的模拟，让使用者如同身历其境一般，可以及时、没有限制地观察三度空间内的事物。
+
+[url=http://www.vrzhijia.com]VR[/url]是一项综合集成技术，...</p>
+                                                    </div>
+                                                </div>
+                                                                                                                                    </div>
+                                    </div>
+                                </div>
+                                <!-- end 回复 -->
+
+                                <!-- 发问 -->
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3><a class="pull-right aw-more-content" href="javascript:;" onclick="$('#page_questions').click();">更多 »</a>发问</h3>
+                                    </div>
+                                    <div class="mod-body">
+                                        <div class="aw-profile-publish-list">
+                                                                                        <p class="padding10 text-center">没有内容</p>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                                <!-- end 发问 -->
+
+                                <!-- 最新动态 -->
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3><a class="pull-right aw-more-content" href="javascript:;" onclick="$('#page_actions').click();">更多 »</a>动态</h3>
+                                    </div>
+                                    <div class="mod-body">
+                                        <ul>
+                                                                                                                                            <li>
+                                                    <p>
+                                                        <span class="pull-right text-color-999">3 天前</span>
+                                                        <em class="pull-left"><a href="2" class="aw-user-name" data-id="2">哆啦A梦</a> 回答了问题,</em>
+                                                        <a class="aw-hide-txt" href="../question/15">虚拟现实行业有哪些软件？</a>
+                                                    </p>
+                                                </li>
+                                                                                                <li>
+                                                    <p>
+                                                        <span class="pull-right text-color-999">3 天前</span>
+                                                        <em class="pull-left"><a href="2" class="aw-user-name" data-id="2">哆啦A梦</a> 回答了问题,</em>
+                                                        <a class="aw-hide-txt" href="../question/16">虚拟现实软件开发流程有哪些？</a>
+                                                    </p>
+                                                </li>
+                                                                                                <li>
+                                                    <p>
+                                                        <span class="pull-right text-color-999">4 天前</span>
+                                                        <em class="pull-left"><a href="2" class="aw-user-name" data-id="2">哆啦A梦</a> 回答了问题,</em>
+                                                        <a class="aw-hide-txt" href="../question/17">虚拟现实VR概念股有哪些,特别是龙头股</a>
+                                                    </p>
+                                                </li>
+                                                                                                <li>
+                                                    <p>
+                                                        <span class="pull-right text-color-999">4 天前</span>
+                                                        <em class="pull-left"><a href="2" class="aw-user-name" data-id="2">哆啦A梦</a> 回答了问题,</em>
+                                                        <a class="aw-hide-txt" href="../question/7">Oculus Rift CV1 消费版本什么时候上市呢</a>
+                                                    </p>
+                                                </li>
+                                                                                                <li>
+                                                    <p>
+                                                        <span class="pull-right text-color-999">2016-01-02</span>
+                                                        <em class="pull-left"><a href="2" class="aw-user-name" data-id="2">哆啦A梦</a> 回答了问题,</em>
+                                                        <a class="aw-hide-txt" href="../question/18">虚拟现实系统有哪些特征？</a>
+                                                    </p>
+                                                </li>
+                                                                                                                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="questions">
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3>发问</h3>
+                                    </div>
+                                    <div class="mod-body">
+                                        <div class="aw-profile-publish-list" id="contents_user_actions_questions"></div>
+                                    </div>
+                                    <div class="mod-footer">
+                                        <!-- 加载更多内容 -->
+                                        <a class="aw-load-more-content" id="bp_user_actions_questions_more">
+                                            <span>更多</span>
+                                        </a>
+                                        <!-- end 加载更多内容 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="answers">
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3>回复</h3>
+                                    </div>
+                                    <div class="mod-body">
+                                        <div class="aw-profile-answer-list" id="contents_user_actions_answers"></div>
+                                    </div>
+                                    <div class="mod-footer">
+                                        <!-- 加载更多内容 -->
+                                        <a class="aw-load-more-content" id="bp_user_actions_answers_more">
+                                            <span>更多</span>
+                                        </a>
+                                        <!-- end 加载更多内容 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="articles">
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3>文章</h3>
+                                    </div>
+                                    <div class="mod-body">
+                                        <div class="aw-profile-publish-list" id="contents_user_actions_articles"></div>
+                                    </div>
+                                    <div class="mod-footer">
+                                        <!-- 加载更多内容 -->
+                                        <a class="aw-load-more-content" id="bp_user_actions_articles_more">
+                                            <span>更多</span>
+                                        </a>
+                                        <!-- end 加载更多内容 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="focus">
+                                <!-- 自定义切换 -->
+                                <div class="aw-mod">
+                                    <div class="aw-tabs text-center">
+                                        <ul>
+                                            <li class="active"><a>关注的人</a></li>
+                                            <li><a>关注者</a></li>
+                                            <li><a>关注的话题</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mod-body">
+                                        <div class="aw-tab-content">
+                                            <div class="aw-mod aw-user-center-follow-mod">
+                                                <div class="mod-body">
+                                                    <ul id="contents_user_follows" class="clearfix"></ul>
+                                                </div>
+                                                <div class="mod-footer">
+                                                    <!-- 加载更多内容 -->
+                                                    <a class="aw-load-more-content" id="bp_user_follows_more">
+                                                        <span>更多</span>
+                                                    </a>
+                                                    <!-- end 加载更多内容 -->
+                                                </div>
+                                            </div>
+                                            <div class="aw-mod aw-user-center-follow-mod hide">
+                                                <div class="mod-body">
+                                                    <ul class="clearfix" id="contents_user_fans"></ul>
+                                                </div>
+                                                <div class="mod-footer">
+                                                    <!-- 加载更多内容 -->
+                                                    <a class="aw-load-more-content" id="bp_user_fans_more">
+                                                        <span>更多</span>
+                                                    </a>
+                                                    <!-- end 加载更多内容 -->
+                                                </div>
+                                            </div>
+                                            <div class="aw-mod aw-user-center-follow-mod hide">
+                                                <div class="mod-body">
+                                                    <ul id="contents_user_topics" class="clearfix"></ul>
+                                                </div>
+                                                <div class="mod-footer">
+                                                    <!-- 加载更多内容 -->
+                                                    <a class="aw-load-more-content" id="bp_user_topics_more">
+                                                        <span>更多</span>
+                                                    </a>
+                                                    <!-- end 加载更多内容 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end 自定义切换 -->
+                            </div>
+                            <div class="tab-pane" id="actions">
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3>最新动态</h3>
+                                    </div>
+                                    <div class="mod-body">
+                                        <div id="contents_user_actions"></div>
+                                    </div>
+                                    <div class="mod-footer">
+                                        <!-- 加载更多内容 -->
+                                        <a class="aw-load-more-content" id="bp_user_actions_more">
+                                            <span>更多</span>
+                                        </a>
+                                        <!-- end 加载更多内容 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="detail">
+                                <div class="aw-mod">
+                                    <div class="mod-head">
+                                        <h3>详细资料</h3>
+                                    </div>
+                                    <div class="mod-body aw-user-center-details">
+                                                                            <dl>
+                                        <dt><span>个人成就:</span></dt>
+                                        <dd>
+                                            <p class="meta">
+                                                <span><i class="icon icon-prestige"></i>威望: <em class="aw-text-color-green">12</em></span>
+                                                                                                <span><i class="icon icon-score"></i>积分: <em class="aw-text-color-orange">2023</em></span>
+                                                                                                <span><i class="icon icon-agree"></i>赞同: <em class="aw-text-color-orange">10</em></span>
+                                                <span><i class="icon icon-thank"></i>感谢: <em class="aw-text-color-orange">0</em></span>
+                                            </p>
+                                        </dd>
+                                    </dl>
+                                    
+                                    
+                                    
+                                                                        <dl>
+                                        <dt><span>最后活跃:</span></dt>
+                                        <dd>2 天前</dd>
+                                    </dl>
+                                    
+                                                                        <dl>
+                                        <dt><span>擅长话题:</span></dt>
+                                        <dd class="aw-user-center-details-good-topic">
+                                                                                        <div>
+                                                <span class="topic-tag">
+                                                    <a href="../topic/Unity3d" class="text" data-id="10">Unity3d</a>
+                                                </span>
+                                                <span>
+                                                    <i class="icon icon-agree"></i> 1&nbsp;&nbsp;
+                                                    <i class="icon icon-thank"></i> 0                                                </span>
+                                            </div>
+                                                                                        <div>
+                                                <span class="topic-tag">
+                                                    <a href="../topic/Maya" class="text" data-id="9">Maya</a>
+                                                </span>
+                                                <span>
+                                                    <i class="icon icon-agree"></i> 1&nbsp;&nbsp;
+                                                    <i class="icon icon-thank"></i> 0                                                </span>
+                                            </div>
+                                                                                    </dd>
+                                    </dl>
+                                                                        </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+
+                <!-- 侧边栏 -->
+                <div class="col-sm-12 col-md-3 aw-side-bar">
+                    <div class="aw-mod people-following">
+                        <div class="mod-body">
+                            <a onclick="$('#page_focus').click();$('#focus .aw-tabs ul li').eq(0).click();$.scrollTo($('#focus').offset()['top'], 600, {queue:true})" class="pull-right font-size-12">更多 »</a>
+                            <span>
+                                关注 <em class="aw-text-color-blue">3</em> 人                            </span>
+                                                        <p>
+                                                                    <a class="aw-user-name" data-id="11" href="红�%259D%258F"><img src="../uploads/avatar/000/00/00/11_avatar_mid.jpg" alt="红杏" /></a>
+                                                                    <a class="aw-user-name" data-id="4" href="�%2588%2591�%258F��%258F�%2598%258E"><img src="../uploads/avatar/000/00/00/04_avatar_mid.jpg" alt="我叫小明" /></a>
+                                                                    <a class="aw-user-name" data-id="1" href="hack"><img src="../static/common/avatar-mid-img.png" alt="hack" /></a>
+                                                            </p>
+                                                    </div>
+                    </div>
+                    <div class="aw-mod people-following">
+                        <div class="mod-body">
+                            <a onclick="$('#page_focus').click();$('#focus .aw-tabs ul li').eq(1).click();$.scrollTo($('#focus').offset()['top'], 600, {queue:true})" class="pull-right font-size-12">更多 »</a>
+                            <span>
+                                被 <em class="aw-text-color-blue">1</em> 人关注                            </span>
+
+                                                        <p>
+                                                                    <a class="aw-user-name" data-id="11" href="红�%259D%258F"><img src="../uploads/avatar/000/00/00/11_avatar_mid.jpg" alt="红杏"></a>
+                                                            </p>
+                                                    </div>
+
+                    </div>
+                    <div class="aw-mod people-following">
+                        <div class="mod-body">
+                            关注 <em class="aw-text-color-blue">19</em> 话题                                                        <div class="aw-topic-bar">
+                                <div class="tag-bar clearfix">
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/Oculus+Rift" class="text" data-id="7">Oculus Rift</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/Rift+CV1" class="text" data-id="12">Rift CV1</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/VR游�%2588%258F" class="text" data-id="8">VR游戏</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/Maya" class="text" data-id="9">Maya</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/Unity3d" class="text" data-id="10">Unity3d</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/�%2599%259A�%258B%259F�%258E��%259E�%258E�" class="text" data-id="11">虚拟现实现</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/VR�%258A%2580�%259C�" class="text" data-id="1">VR技术</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/vr�%258B家" class="text" data-id="3">vr之家</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/VR产�%2593%2581" class="text" data-id="4">VR产品</a>
+                                        </span>
+                                                                            <span class="topic-tag">
+                                            <a href="../topic/PalmerLuckey" class="text" data-id="5">PalmerLuckey</a>
+                                        </span>
+                                                                    </div>
+                            </div>
+                                                    </div>
+                    </div>
+                    <div class="aw-mod">
+                        <div class="mod-body">
+                            <span class="aw-text-color-666">
+                                主页访问量 : 27 次访问                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 侧边栏 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var PEOPLE_USER_ID = '2';
+
+    var ACTIVITY_ACTIONS = '101,201,105,204,401,406,501,502,503';
+</script>
+
+<script type="text/javascript" src="../static/js/app/people.js"></script>
+
+<div class="aw-footer-wrap">
+	<div class="aw-footer">
+		Copyright © <a href="../../index.html" target="_blank">VR之家</a> <a href="../../bbs.1">VR之家开发技术社区</a> 2016<span class="hidden-xs"> - 粤ICP备14057610号-1, All Rights Reserved <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ff04f7071632918a7161d92ab6834b81";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+ <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252994616'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1252994616%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span>
+
+
+			</div>
+</div>
+
+<a class="aw-back-top hidden-xs" href="javascript:;" onclick="$.scrollTo(1, 600, {queue:true});"><i class="icon icon-up"></i></a>
+
+
+<!-- DO NOT REMOVE -->
+<div id="aw-ajax-box" class="aw-ajax-box"></div>
+
+<div style="display:none;" id="__crond">
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#__crond').html(unescape('%3Cimg%20src%3D%22' + G_BASE_URL + '/crond/run/1452331788%22%20width%3D%221%22%20height%3D%221%22%20/%3E'));
+		});
+	</script>
+</div>
+
+<!-- Escape time: 0.11567497253418 --><!-- / DO NOT REMOVE -->
+
+</body>
+</html>

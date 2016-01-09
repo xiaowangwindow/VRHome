@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /bdy.php
+Disallow: /bdy.php?id=*
+Disallow: /down.php
+Disallow: /down.php?id=*
+Disallow: /*.js$
+Disallow: /*.js

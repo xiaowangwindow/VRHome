@@ -1,0 +1,157 @@
+h2 { font-size: 16px;}
+.container { background: url('../img/top_bg.png') no-repeat scroll center 0px transparent; }
+.top-bar { height: 26px; }
+.top-bar .welcome { float: left; height: 26px; line-height: 26px; color: rgb(102, 102, 102); }
+.top-bar .ico-msg { width: 20px; height: 20px; background-position: -280px -40px; float: left; margin-top: 3px; }
+.user-tools { float: right; line-height: 26px; }
+.user-tools a { float: left; }
+.user-tools s { margin: 0px 8px; color: rgb(153, 153, 153); float: left; line-height: 26px; }
+.header { height: 89px; width: 960px; margin: 0px auto; }
+.header .logo { margin-top: 19px; width: 152px; height: 54px; background: url('../img/logo.png') no-repeat scroll 0% 0% transparent; }
+.header .logo a { display: block; height: 54px; text-indent: -999em; }
+.search-form { padding: 25px 0px 0px 45px; float: left; width: 435px; }
+.key-form { height: 32px; border-radius: 3px; position: relative; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 2px solid rgb(36, 185, 253); padding: 0px; }
+.key-form .key { float: left; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 0px none; padding: 6px 0px 6px 6px; height: 20px; line-height: 20px; width: 324px; color: rgb(51, 51, 51); }
+.key-form .hot-btn { width: 20px; height: 20px; background-position: -260px -60px; position: absolute; left: 330px; top: 8px; cursor: pointer; }
+.key-form .hot-num { width: 17px; height: 15px; overflow: hidden; background-position: -280px -60px; position: absolute; left: 1px; top: -15px; text-align: center; line-height: 15px; color: rgb(255, 255, 255); display: none; }
+.key-form .btn { color: rgb(255, 255, 255); font-size: 14px; width: 80px; float: right; height: 32px; text-align: center; border: 0px none; background: none repeat scroll 0% 0% rgb(36, 185, 253); }
+.top-test { width: 250px; float: right; margin-top: 10px; }
+.footer { background: none repeat scroll 0% 0% rgb(122, 125, 128); padding: 35px 0px; text-align: center; color: rgb(255, 255, 255); line-height: 24px; margin-top: 10px; }
+.footer a, .footer a:visited { color: rgb(255, 255, 255); }
+.footer s { color: rgb(172, 172, 172); margin: 0px 3px; }
+.main-nav { width: 960px; margin: 0px auto; background-position: 0px -465px; background-color: rgb(82, 185, 251); height: 40px; }
+.menu { float: left; }
+.menu li { float: left; height: 40px; line-height: 40px; background-position: right -151px; background-repeat: no-repeat; padding: 0px 20px 0px 18px; margin-right: -2px; }
+.menu li a { color: rgb(255, 255, 255); font-family: "Microsoft YaHei","微软雅黑","宋体"; font-size: 16px; text-shadow: 1px 1px 1px rgb(11, 129, 215); }
+.menu li a:hover { color: rgb(255, 255, 255); }
+.menu li i { width: 20px; height: 20px; float: left; margin: 9px 10px 0px 0px; }
+.menu .ico-pc { background-position: 0px 0px; }
+.menu .ico-and { background-position: -20px 0px; }
+.menu .ico-ip { background-position: -40px 0px; }
+.nav-ext { float: right; padding: 9px 10px 0px 0px; }
+.nav-ext a { background-repeat: no-repeat; background-position: 0px -107px; display: inline-block; height: 22px; line-height: 22px; padding-left: 10px; color: rgb(255, 255, 255); }
+.nav-ext a:hover { color: rgb(255, 255, 255); }
+.main-mark { height: 36px; background-color: rgb(82, 185, 251); background-repeat: no-repeat; background-position: 0px -191px; position: relative; }
+.main-mark .mark { line-height: 36px; padding-left: 12px; font-weight: bold; color: rgb(255, 255, 255); }
+.soft-top-list li { height: 32px; border-bottom: 1px dotted rgb(215, 215, 215); position: relative; vertical-align: middle; padding:  0 0 0 10px; }
+.soft-top-list .mix { height: 58px; }
+.soft-top-list .num { width: 16px; height: 16px; float: left; margin-left: -1px; margin-right: 10px; display: inline; margin-top: 8px; }
+.soft-top-list .num-1, .soft-top-list .num-2, .soft-top-list .num-3 { margin-top: 21px; }
+.soft-top-list .num-1 { background-position: -80px -20px; }
+.soft-top-list .num-2 { background-position: -100px -20px; }
+.soft-top-list .num-3 { background-position: -120px -20px; }
+.soft-top-list .num-4 { background-position: -140px -20px; }
+.soft-top-list .num-5 { background-position: -160px -20px; }
+.soft-top-list .num-6 { background-position: -180px -20px; }
+.soft-top-list .num-7 { background-position: -80px -40px; }
+.soft-top-list .num-8 { background-position: -100px -40px; }
+.soft-top-list .num-9 { background-position: -120px -40px; }
+.soft-top-list .num-10 { background-position: -140px -40px; }
+.soft-top-list .top-pic { float: left; width: 40px; height: 40px; margin: 9px 10px 0px 0px; overflow: hidden; }
+.soft-top-list .top-pic img { width: 40px; height: 40px; }
+.soft-top-list .top-txt { float: left; width: 90px; padding-top: 8px; }
+.soft-top-list .s-name { float: left; width: 135px; height: 32px; line-height: 32px; overflow: hidden; }
+.main-row { background: url('../img/lay_bg.png') repeat-y scroll 0px 0px transparent; }
+.left-nav { border-top: 2px solid rgb(82, 185, 251); }
+.left-cat .ico { width: 20px; height: 20px; position: absolute; top: 10px; }
+.left-cat .ico-all { background-position: -80px 0px; left: 25px; }
+.left-cat .ico-arr { right: 10px; cursor: pointer; background-position: -160px 0px; }
+.left-cat .open .ico-arr { background-position: -140px 0px; }
+.left-cat .child-cat { display: none; }
+.left-cat .open .child-cat { display: block; }
+.sub-menu { display: block; height: 40px; margin: 0px 1px; background-position: 0px -32px; color: rgb(102, 102, 102); line-height: 40px; font-size: 14px; padding-left: 53px; position: relative; }
+.child-cat { padding: 7px 0px; }
+.left-cat .sub { line-height: 30px; }
+.left-cat .sub a { display: block; height: 30px; overflow: hidden; padding-left: 30px; }
+.left-cat .sub .current, .left-cat .sub a:hover { background: none repeat scroll 0% 0% rgb(82, 185, 251); color: rgb(255, 255, 255); text-decoration: none; }
+.left-cat .sub .current .ext, .left-cat .sub a:hover .ext { color: rgb(255, 255, 255); }
+.left-cat .sub li { height: 30px; line-height: 30px; overflow: hidden; padding: 0px 0px 0px 15px; }
+.placeholder-label {  }
+.bottom-list { height: 60px; background: none repeat scroll 0% 0% rgb(255, 255, 255); margin-top: 10px; border: 1px solid rgb(233, 233, 233); }
+.bottom-list p { font: bold 12px/30px "simsun"; padding-left: 10px; }
+.bottom-list a { display: block; margin: 0px 6px 0px 7px; padding: 0px 7px; line-height: 20px; float: left; }
+.bottom-list a:hover { background: none repeat scroll 0% 0% rgb(0, 99, 168); color: rgb(255, 255, 255); text-decoration: none; }
+
+.deta-page { height: 26px; line-height: 18px; color: rgb(102, 102, 102); overflow: hidden; }
+.main-detail-box { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(233, 233, 233); overflow: hidden; padding-bottom: 20px; width: 788px; }
+.soft-info { padding: 25px 19px 18px; overflow: hidden; border-bottom: 1px dashed rgb(233, 233, 233); }
+.soft-pic { float: left; width: 280px; }
+.pic-item { width: 260px; height: 190px; padding: 20px 10px; background: none repeat scroll 0% 0% rgb(240, 242, 243); position: relative;text-align: center; }
+.pic-item img { vertical-align: middle; width: 260px; height: 180px;  }
+.soft-dl-button { height: 44px; margin: 20px auto 0px; overflow: hidden; }
+.soft-dl-button  { float: left; }
+.soft-dl-nobr .dl-btn,.dl-btn-bdy { float: left; margin: 0 10px 0 0; }
+.soft-text { width: 450px; float: right; }
+.soft-title { position: relative; }
+.soft-title h1 { font-size: 16px; line-height: 24px; padding: 5px 155px 5px 0px; }
+.soft-title .soft-range { position: absolute; right: 0px; top: -3px; }
+.soft-title .star-range { width: 125px; height: 23px; background-position: -100px -103px; float: left; margin-top: 6px; }
+.soft-title .star-range .in { height: 23px; background-position: -100px -80px; }
+.soft-title .soft-grade { float: left; padding-left: 10px; }
+.soft-title .red { font-size: 24px; }
+.soft-info-list li { height: 22px; line-height: 22px; overflow: hidden; }
+.soft-info-list .item { float: left; width: 32%; height: 22px; overflow: hidden; }
+.soft-desc .til { display: block; padding: 10px 0px 5px; font-weight: bold; height: 22px; line-height: 22px; }
+.soft-desc p { line-height: 22px; }
+.soft-share { height: 24px; overflow: hidden; margin-top: 30px; }
+.soft-share .soft-share-bar { height: 22px; border: 1px solid rgb(231, 231, 231); border-radius: 3px; background-position: 0px -407px; float: right; padding: 0px 5px; overflow: hidden; }
+.soft-share span.bds_more, .soft-share .bds_tools a { padding-top: 5px; }
+.soft-share #bdshare { margin-top: -2px; }
+.soft-share .bds_tools a.shareCount { line-height: 10px; }
+.top-row { padding: 0px 19px; margin-top: 20px; }
+.deta-top-box { width: 363px; border: 1px solid rgb(233, 233, 233); }
+.deta-top-box .top-hd { height: 56px; border-bottom: 1px solid rgb(230, 230, 230); position: relative; }
+.deta-top-box .top-hd i { position: absolute; width: 35px; height: 25px; top: 6px; left: -5px; }
+.deta-top-box .deta-hot { background-position: 0px -263px; }
+.deta-top-box .deta-hot i { background-position: -200px -20px; }
+.deta-top-box .deta-hot .top-title { color: rgb(102, 102, 102); }
+.deta-top-box .deta-new { background-position: 0px -319px; }
+.deta-top-box .deta-new i { background-position: -240px -20px; }
+.deta-top-box .deta-new .top-title { color: rgb(252, 78, 134); }
+.deta-top-box .top-title { padding: 4px 0px 0px 36px; height: 28px; line-height: 28px; font-size: 14px; font-weight: bold; }
+.deta-top-box .top-ext { height: 24px; line-height: 24px; overflow: hidden; }
+.deta-top-box .top-ext span { float: left; text-align: center; color: rgb(102, 102, 102); }
+.deta-top-box .top-ext .s1 { width: 198px; padding-left: 33px; text-align: left; }
+.deta-top-box .top-ext .s2 { width: 50px; }
+.deta-top-box .top-ext .s3 { width: 60px; }
+.soft-top-list .num-1, .soft-top-list .num-2, .soft-top-list .num-3 { margin-top: 8px; }
+.soft-top-list .s-name { width: 210px; }
+.soft-top-list .ico-down, .soft-top-list .ico-up { float: left; width: 20px; height: 20px; margin-top: 6px; }
+.soft-top-list .ico-up { background-position: -260px 0px; }
+.soft-top-list .dl-num { width: 95px; text-align: center; float: left; line-height: 32px; }
+.soft-top-list .mix { height: 89px; }
+.mix-pic { padding: 0px 20px; }
+.soft-top-list .top-txt { width: 271px; color: rgb(153, 153, 153); height: 44px; overflow: hidden; line-height: 22px; padding-top: 4px; }
+.soft-top-list .top-pic { margin-top: 7px; }
+.top-more { height: 32px; line-height: 32px; padding-right: 20px; text-align: right; }
+.cmt-row { padding: 0px 19px; }
+.cmt-row .main-mark { background-position: 0px -429px; }
+.cmt-row .main-mark .mark i { font-weight: normal; }
+.cmt-form-box { background: none repeat scroll 0% 0% rgb(240, 242, 243); padding: 8px 10px 10px; overflow: hidden; width: 730px; position: relative; }
+.cmt-tags span, .cmt-tags a { float: left; height: 24px; margin-bottom: 8px; line-height: 24px; color: rgb(102, 102, 102); }
+
+.cmt-form-box p { font-size: 16px;}
+.cmt-text textarea { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(233, 233, 233); width: 718px; height: 67px; display: block; padding: 5px; overflow: hidden; }
+.cmt-btn { padding: 10px 0px 0px; text-align: right; }
+.cmt-btn button { width: 86px; height: 30px; background: url('../img/btn.png') no-repeat scroll 0px -58px transparent; border: 0px none; color: rgb(255, 255, 255); font-size: 14px; }
+.cmt-btn button:hover { background-position: -150px -160px; }
+.cmt-btn button:active { background-position: -150px -190px; }
+.no-cmt { padding: 10px; line-height: 24px; text-align: center; color: rgb(153, 153, 153); }
+.dl-btn, .dl-br-btn { width: 134px; height: 44px; display: block; background: url('../img/dl_btn.png') no-repeat scroll 0% 0% transparent; text-indent: -999em; }
+.dl-btn:hover { background-position: -134px 0px; }
+.dl-btn:active { background-position: -268px 0px; }
+
+.dl-btn-bdy { width: 134px; height: 44px; display: block; background: url('../img/dl_btn.png') no-repeat scroll 0 -44px transparent; text-indent: -999em;}
+.dl-btn-bdy:hover { background-position: -134px -44px; }
+.dl-btn-bdy:active { background-position: -268px -44px; }
+
+.soft-top-list .spread { background: none repeat scroll 0% 0% rgb(245, 245, 245); border-bottom: medium none; }
+.soft-top-list .spread-ico { display: inline-block; width: 33px; height: 17px; text-align: center; line-height: 17px; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(237, 184, 2); }
+.soft-top-list .spread-name { width: 200px; }
+.hot-software { width: 790px; margin: 10px 0px 0px; }
+.software-list { width: 776px; padding: 10px 0px 6px 12px; border: 1px solid rgb(221, 221, 221); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.software-list li { float: left; width: 152px; height: 26px; margin-left: 3px; overflow: hidden; }
+.software-list li img { display: inline; width: 20px; height: 20px; vertical-align: middle; }
+.software-list li a { padding-left: 7px; font: 12px/26px "simsun"; }
+
+
